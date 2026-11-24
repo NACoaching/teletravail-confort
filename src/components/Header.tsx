@@ -14,6 +14,7 @@ import {
   Search,
   ChevronDown,
   ChevronRight,
+  ChevronLeft,
   Flame,
   Footprints,
   Keyboard,
@@ -50,6 +51,33 @@ export default function Header() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [mobileExpandedCat, setMobileExpandedCat] = useState<string | null>("accessoires-ergonomie");
   const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Quick Trends Bar Carousel state & ref
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const checkScroll = () => {
+    if (scrollContainerRef.current) {
+      const { scrollLeft, scrollWidth, clientWidth } = scrollContainerRef.current;
+      setCanScrollLeft(scrollLeft > 10);
+      setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 10);
+    }
+  };
+
+  useEffect(() => {
+    checkScroll();
+    const handleResize = () => checkScroll();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const scrollTrends = (direction: "left" | "right") => {
+    if (scrollContainerRef.current) {
+      const offset = direction === "left" ? -260 : 260;
+      scrollContainerRef.current.scrollBy({ left: offset, behavior: "smooth" });
+    }
+  };
 
   // Global shortcut Cmd+K or Ctrl+K to open search
   useEffect(() => {
@@ -322,32 +350,74 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Quick Trending Subnav Bar: Direct Access to High Intent Items */}
-      <div className="bg-slate-50/90 border-t border-slate-200/80 overflow-x-auto scrollbar-none py-1.5 px-4 sm:px-6">
-        <div className="max-w-6xl mx-auto flex items-center gap-2 text-[11px] whitespace-nowrap">
-          <span className="flex items-center gap-1 font-bold text-blue-700 shrink-0 pr-1 border-r border-slate-200">
-            <Flame className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
-            <span>Guides &amp; Sélections :</span>
-          </span>
-          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5">
-            {quickTrends.map((trend) => {
-              const Icon = trend.icon;
-              return (
-                <Link
-                  key={trend.label}
-                  href={trend.href}
-                  className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-white hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200/80 hover:border-blue-300 font-medium transition-all shadow-2xs shrink-0"
+      {/* Quick Trending Subnav Bar: Direct Access with Smooth Interactive Carousel */}
+      <div className="bg-slate-50/95 border-t border-slate-200/80 py-1.5 px-3 sm:px-6 relative shadow-2xs select-none">
+        <div className="max-w-6xl mx-auto flex items-center gap-2 text-[11px]">
+          {/* Label Tag */}
+          <div className="flex items-center gap-1 font-bold text-blue-700 shrink-0 pr-2 border-r border-slate-200">
+            <Flame className="w-3.5 h-3.5 text-amber-500 fill-amber-500 shrink-0" />
+            <span className="hidden sm:inline">Guides &amp; Sélections :</span>
+            <span className="sm:hidden font-extrabold">Guides :</span>
+          </div>
+
+          {/* Interactive Carousel Wrapper with Arrows */}
+          <div className="relative flex-1 min-w-0 flex items-center overflow-hidden">
+            {/* Left Scroll Arrow */}
+            {canScrollLeft && (
+              <div className="absolute left-0 top-0 bottom-0 z-20 flex items-center bg-gradient-to-r from-slate-50 via-slate-50/95 to-transparent pr-4 pl-0.5">
+                <button
+                  type="button"
+                  onClick={() => scrollTrends("left")}
+                  className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-white border border-slate-300 shadow-sm flex items-center justify-center text-slate-700 hover:text-blue-600 hover:border-blue-400 hover:scale-105 active:scale-95 transition cursor-pointer"
+                  aria-label="Défiler vers la gauche"
                 >
-                  <Icon className="w-3 h-3 text-slate-400" />
-                  <span>{trend.label}</span>
-                  {trend.badge && (
-                    <span className="text-[8px] font-extrabold uppercase px-1 rounded-sm bg-blue-600 text-white leading-none py-0.5">
-                      {trend.badge}
-                    </span>
-                  )}
-                </Link>
-              );
-            })}
+                  <ChevronLeft className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            )}
+
+            {/* Scrollable Items Container */}
+            <div
+              ref={scrollContainerRef}
+              onScroll={checkScroll}
+              className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 px-1 scroll-smooth w-full"
+            >
+              {quickTrends.map((trend) => {
+                const Icon = trend.icon;
+                return (
+                  <Link
+                    key={trend.label}
+                    href={trend.href}
+                    className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-white hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 hover:border-blue-300 font-medium transition-all shadow-2xs shrink-0 whitespace-nowrap active:scale-95 group"
+                  >
+                    <Icon className="w-3 h-3 text-slate-400 group-hover:text-blue-600 transition-colors" />
+                    <span>{trend.label}</span>
+                    {trend.badge && (
+                      <span className="text-[8px] font-extrabold uppercase px-1 rounded-sm bg-blue-600 text-white leading-none py-0.5">
+                        {trend.badge}
+                      </span>
+                    )}
+                  </Link>
+                );
+              })}
+            </div>
+
+            {/* Right Scroll Arrow & Hint */}
+            {canScrollRight && (
+              <div className="absolute right-0 top-0 bottom-0 z-20 flex items-center gap-1 bg-gradient-to-l from-slate-50 via-slate-50/95 to-transparent pl-5 pr-0.5">
+                <span className="hidden md:inline text-[9px] font-bold text-slate-400 uppercase tracking-wider">
+                  Défiler
+                </span>
+                <button
+                  type="button"
+                  onClick={() => scrollTrends("right")}
+                  className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-white border border-slate-300 shadow-sm flex items-center justify-center text-slate-700 hover:text-blue-600 hover:border-blue-400 hover:scale-105 active:scale-95 transition cursor-pointer"
+                  aria-label="Défiler vers la droite"
+                >
+                  <ChevronRight className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
