@@ -23,6 +23,7 @@ import TopThreePodium from "@/components/TopThreePodium";
 import CategoryFAQ from "@/components/CategoryFAQ";
 import StickyProductBar from "@/components/StickyProductBar";
 import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
+import CraftDoodles from "@/components/CraftDoodles";
 import { SITE_CONFIG } from "@/config/site";
 
 interface Props {
@@ -163,8 +164,10 @@ export default async function GuideDetailPage({ params }: Props) {
   };
 
   return (
-    <article className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-10">
-      {/* Schema.org Structured Data */}
+    <div className="relative min-h-screen craft-dot-pattern overflow-x-hidden pb-16">
+      <CraftDoodles />
+      <article className="max-w-4xl mx-auto px-4 sm:px-6 pt-6 space-y-10 relative z-10">
+        {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdArticle) }}
@@ -343,5 +346,6 @@ export default async function GuideDetailPage({ params }: Props) {
       {/* Mobile Sticky CTA Bar for the Star Product */}
       {starProduct && <StickyProductBar product={starProduct} />}
     </article>
+  </div>
   );
 }

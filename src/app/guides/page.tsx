@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { guides, categories, getProductBySlug } from "@/lib/data";
 import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
+import CraftDoodles from "@/components/CraftDoodles";
 import { SITE_CONFIG } from "@/config/site";
 
 export const metadata: Metadata = {
@@ -61,8 +62,10 @@ export default function GuidesPage() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 space-y-10">
-      {/* Hero Banner: Design Moderne & Ergonomique */}
+    <div className="relative min-h-screen craft-dot-pattern overflow-x-hidden pb-16">
+      <CraftDoodles />
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6 space-y-10 relative z-10">
+        {/* Hero Banner: Design Moderne & Ergonomique */}
       <div className="rounded-3xl sm:rounded-[2.5rem] bg-gradient-to-br from-blue-50/90 via-slate-50 to-indigo-50/70 p-7 sm:p-12 border-2 border-blue-200/90 shadow-[0_16px_40px_-10px_rgba(37,99,235,0.12)] relative overflow-hidden text-slate-900">
         {/* Radial glow effects */}
         <div className="absolute -top-24 -left-24 w-80 h-80 bg-blue-300/30 rounded-full blur-3xl pointer-events-none" />
@@ -197,5 +200,6 @@ export default function GuidesPage() {
         })}
       </div>
     </div>
+  </div>
   );
 }
