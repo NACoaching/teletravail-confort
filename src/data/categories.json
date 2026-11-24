@@ -1,0 +1,146 @@
+[
+  {
+    "id": "bureaux-assis-debout",
+    "slug": "bureaux-assis-debout",
+    "name": "Bureaux Assis-Debout",
+    "shortName": "Bureaux Assis-Debout",
+    "description": "Aménagez un poste de travail dynamique pour soulager votre dos : bureaux électriques à double moteur, modèles compacts pour petits appartements (100x60 cm), bureaux d'angle et convertisseurs à poser testés pour leur stabilité et leur silence.",
+    "icon": "Layers",
+    "badgeColor": "blue",
+    "tagline": "Bureaux électriques réglables, compacts & bureaux d'angle",
+    "heroImage": "/category-bureaux.jpg",
+    "subCategories": [
+      {
+        "id": "tous",
+        "label": "Tout afficher",
+        "description": "Toutes les références incontournables de bureaux assis-debout sélectionnées pour leur fiabilité."
+      },
+      {
+        "id": "electriques-motorises",
+        "label": "Électriques Motorisés",
+        "icon": "Sparkles",
+        "description": "Bureaux à moteurs silencieux avec mémoire de hauteur et détection d'obstacles."
+      },
+      {
+        "id": "petits-espaces",
+        "label": "Petits Espaces (Compact)",
+        "icon": "Layers",
+        "description": "Plateaux de 100 à 120 cm parfaits pour installer un coin télétravail dans un appartement ou une chambre."
+      },
+      {
+        "id": "bureaux-angle",
+        "label": "Bureaux d'Angle",
+        "icon": "Layers",
+        "description": "Bureaux en L pour maximiser l'espace et accueillir confortablement plusieurs écrans."
+      }
+    ]
+  },
+  {
+    "id": "chaises-ergonomiques",
+    "slug": "chaises-ergonomiques",
+    "name": "Chaises Ergonomiques",
+    "shortName": "Chaises Ergonomiques",
+    "description": "Préservez votre posture pendant vos longues journées de travail : sièges en maille respirante mesh, soutien lombaire adaptatif 3D, accoudoirs réglables et têtières ajustables pour éliminer les tensions au cou et aux lombaires.",
+    "icon": "Sparkles",
+    "badgeColor": "emerald",
+    "tagline": "Soutien lombaire adaptatif, maille respirante & têtière 3D",
+    "heroImage": "/category-chaises.jpg",
+    "subCategories": [
+      {
+        "id": "tous",
+        "label": "Tout afficher",
+        "description": "Toutes les chaises ergonomiques validées pour plus de 8 heures de travail quotidien."
+      },
+      {
+        "id": "soutien-lombaire",
+        "label": "Soutien Lombaire & Dos",
+        "icon": "Sparkles",
+        "description": "Mécanismes synchros et coussins lombaires dynamiques pour soulager la colonne vertébrale."
+      },
+      {
+        "id": "maille-mesh",
+        "label": "Maille Mesh Respirante",
+        "icon": "Layers",
+        "description": "Dossiers aérés évitant la transpiration pour un confort thermique optimal toute l'année."
+      },
+      {
+        "id": "compactes-accoudoirs-relevables",
+        "label": "Accoudoirs Relevables",
+        "icon": "Layers",
+        "description": "Sièges compacts dont les accoudoirs se relèvent pour glisser la chaise sous le bureau après le travail."
+      }
+    ]
+  },
+  {
+    "id": "supports-bras-ecrans",
+    "slug": "supports-bras-ecrans",
+    "name": "Supports & Bras d'Écrans",
+    "shortName": "Supports Écrans",
+    "description": "Alignez vos écrans à hauteur des yeux pour soulager vos cervicales : bras articulés à vérin à gaz pour simple ou double écran, rehausseurs de bureau en bois et supports ventilés pour ordinateurs portables.",
+    "icon": "PenTool",
+    "badgeColor": "indigo",
+    "tagline": "Bras articulés vérin à gaz, double écran & supports PC portable",
+    "heroImage": "/category-supports.jpg",
+    "subCategories": [
+      {
+        "id": "tous",
+        "label": "Tout afficher",
+        "description": "Libérez de la place sur votre plateau et ajustez l'inclinaison de vos écrans au millimètre."
+      },
+      {
+        "id": "bras-verin-gaz",
+        "label": "Bras Articulés (Vérin)",
+        "icon": "Layers",
+        "description": "Fixation pince étau sans percer, rotation 360° et réglage de la hauteur d'un seul doigt."
+      },
+      {
+        "id": "double-ecran",
+        "label": "Double Écran",
+        "icon": "Layers",
+        "description": "Supports robustes capables de porter deux écrans de 24 à 32 pouces côte à côte."
+      },
+      {
+        "id": "supports-laptop",
+        "label": "Supports PC Portables",
+        "icon": "Layers",
+        "description": "Stands pliables en aluminium pour surélever votre écran de portable au niveau de votre moniteur."
+      }
+    ]
+  },
+  {
+    "id": "accessoires-ergonomie",
+    "slug": "accessoires-ergonomie",
+    "name": "Accessoires & Confort",
+    "shortName": "Accessoires & Confort",
+    "description": "Les détails qui transforment un simple bureau en poste de travail agréable et productif : lampes de moniteur screenbars anti-reflets, repose-pieds inclinables, tapis anti-fatigue pour le travail debout et passe-câbles magnétiques.",
+    "icon": "Palette",
+    "badgeColor": "amber",
+    "tagline": "Lampes screenbars anti-reflets, repose-pieds & tapis anti-fatigue",
+    "heroImage": "/category-accessoires.jpg",
+    "subCategories": [
+      {
+        "id": "tous",
+        "label": "Tout afficher",
+        "description": "Tous les accessoires indispensables pour réduire la fatigue visuelle et corporelle."
+      },
+      {
+        "id": "lampes-screenbar",
+        "label": "Lampes d'Écran (Screenbar)",
+        "icon": "Sparkles",
+        "description": "Barres LED à poser sur le moniteur : éclairent le bureau sans créer le moindre reflet sur l'écran."
+      },
+      {
+        "id": "repose-pieds-tapis",
+        "label": "Repose-pieds & Tapis Debout",
+        "icon": "Layers",
+        "description": "Repose-pieds massants et dalles en mousse dense pour amortir les stations debout prolongées."
+      },
+      {
+        "id": "gestion-cables",
+        "label": "Gestion des Câbles (Cable Management)",
+        "icon": "Layers",
+        "description": "Gouttières sous bureau, gaines zippées et serre-câbles pour un espace propre et épuré."
+      }
+    ]
+  }
+]

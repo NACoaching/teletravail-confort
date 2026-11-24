@@ -1,0 +1,42 @@
+{
+  "bureaux-assis-debout": [
+    {
+      "question": "Pourquoi alterner assis et debout au travail ?",
+      "answer": "Varier entre position assise et debout stimule la circulation sanguine, réduit de plus de 40% la pression exercée sur les disques vertébraux et prévient l'engourdissement et les coups de fatigue après le repas."
+    },
+    {
+      "question": "Un bureau assis-debout est-il bruyant ?",
+      "answer": "Les moteurs modernes (comme ceux de Flexispot ou Songmics) émettent moins de 50 décibels lors de la montée, ce qui équivaut au ronronnement d'un réfrigérateur. Vous pouvez régler la hauteur en plein appel sans déranger vos collègues."
+    }
+  ],
+  "chaises-ergonomiques": [
+    {
+      "question": "Quelle est la différence entre une chaise gamer et une chaise ergonomique ?",
+      "answer": "La chaise gamer mise sur un design de siège baquet en simili-cuir qui retient la chaleur et bloque les épaules. La chaise ergonomique de bureau est conçue avec une maille respirante et un soutien lombaire adaptatif qui suit les mouvements naturels de votre colonne."
+    },
+    {
+      "question": "Comment bien régler sa chaise de bureau ?",
+      "answer": "Réglez l'assise pour que vos pieds reposent à plat au sol avec les genoux à 90°. Ajustez ensuite le support lombaire pour qu'il vienne combler le creux naturel de vos reins sans créer de point dur."
+    }
+  ],
+  "supports-bras-ecrans": [
+    {
+      "question": "À quelle hauteur doit se trouver l'écran de travail ?",
+      "answer": "Le haut de votre moniteur doit se situer exactement au niveau de la ligne de vos yeux. Vous devez pouvoir regarder le centre de l'écran en baissant légèrement le regard de 15 à 20 degrés, sans jamais baisser ou casser la nuque."
+    },
+    {
+      "question": "Peut-on fixer un bras articulé sur n'importe quel bureau ?",
+      "answer": "La pince étau s'adapte sur 95% des plateaux de 1,5 à 8 cm d'épaisseur. Vérifiez simplement que le plateau n'est pas en verre fragile ou en carton alvéolé creux très fin sans renfort."
+    }
+  ],
+  "accessoires-ergonomie": [
+    {
+      "question": "Pourquoi utiliser une lampe screenbar plutôt qu'une lampe de bureau classique ?",
+      "answer": "Une lampe classique éclaire vers l'écran et provoque des reflets gênants qui fatiguent la vue. La barre d'écran possède une lentille asymétrique orientée uniquement vers le clavier et votre bureau, sans aucun éblouissement."
+    },
+    {
+      "question": "Un tapis anti-fatigue est-il vraiment utile quand on travaille debout ?",
+      "answer": "Oui, sa mousse haute densité amortit le poids du corps, réduit les micro-chocs articulaires au niveau des genoux et des chevilles et permet de rester debout plus longtemps sans douleur sous la voûte plantaire."
+    }
+  ]
+}

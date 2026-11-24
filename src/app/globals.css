@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --font-titre: "DM Serif Display", Georgia, serif;
+  --font-sans: var(--font-sans), system-ui, sans-serif;
+
+  --color-fond: #fdf9f3;
+  --color-fond-doux: #f8efe4;
+  --color-surface: #ffffff;
+  --color-bord: #eadfd3;
+  --color-bord-fonce: #d8c8b8;
+
+  --color-encre: #241b16;
+  --color-texte: #241b16;
+  --color-texte-doux: #5a493e;
+  --color-texte-leger: #8c786c;
+
+  --color-accent: #e05238;
+  --color-accent-fonce: #c53e26;
+  --color-accent-clair: #ffede6;
+
+  --color-sauge: #2d6a4f;
+  --color-sauge-clair: #e8f5ed;
+
+  --color-miel: #d97706;
+  --color-miel-clair: #fef3c7;
+
+  --color-indigo: #4338ca;
+  --color-indigo-clair: #e0e7ff;
+}
+
+:root {
+  --background: #fdf9f3;
+  --foreground: #241b16;
+  --card-bg: #ffffff;
+  --card-border: #eadfd3;
+}
+
+@layer base {
+  body {
+    background-color: #fdf9f3;
+    color: #241b16;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, .titre {
+    font-family: "DM Serif Display", Georgia, serif;
+    color: #241b16;
+    letter-spacing: -0.01em;
+  }
+}
+
+.titre {
+  font-family: "DM Serif Display", Georgia, serif;
+}
+
+.craft-dot-pattern {
+  background-image: radial-gradient(#e5d8cb 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+.bandeau-doux {
+  background-color: #f6efe6;
+  border: 1px solid #eadfd3;
+}
+
+.craft-card {
+  background-color: #ffffff;
+  border: 1px solid #eadfd3;
+  box-shadow: 0 4px 18px -2px rgba(36, 27, 22, 0.05);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.craft-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px -4px rgba(224, 82, 56, 0.12), 0 4px 12px -2px rgba(36, 27, 22, 0.04);
+  border-color: #f6a98b;
+}
+
+.amazon-btn {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 4px 14px 0 rgba(217, 119, 6, 0.3);
+  transition: all 0.2s ease;
+}
+
+.amazon-btn:hover {
+  background: linear-gradient(135deg, #fbbf24 0%, #b45309 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px 0 rgba(217, 119, 6, 0.4);
+}
+
+/* Cache buster & styles atelier */
+.gallery-card-glow {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
