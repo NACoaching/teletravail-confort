@@ -23,7 +23,7 @@ export const SITE_CONFIG = {
   amazonMarketplace: "amazon.fr",
 
   // SEO & Indexation Google Search Console (à remplir après création de la propriété)
-  googleVerification: "",
+  googleVerification: "3QEKQ29ao_tbundI5KT2mGeIPYs8706exNtVdkcA7TI",
 
   // Déclaration légale obligatoire Amazon
   affiliateDisclaimer:
