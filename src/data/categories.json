@@ -68,6 +68,12 @@
         "label": "Accoudoirs Relevables",
         "icon": "Layers",
         "description": "Sièges compacts dont les accoudoirs se relèvent pour glisser la chaise sous le bureau après le travail."
+      },
+      {
+        "id": "sieges-assis-genoux",
+        "label": "Sièges Assis-Genoux",
+        "icon": "Armchair",
+        "description": "Sièges ergonomiques à bascule pour redresser naturellement la colonne vertébrale sans dossier."
       }
     ]
   },
@@ -124,10 +130,16 @@
         "description": "Tous les accessoires indispensables pour réduire la fatigue visuelle et corporelle."
       },
       {
-        "id": "lampes-screenbar",
-        "label": "Lampes d Écran (Screenbar)",
+        "id": "tapis-marche-mobilite",
+        "label": "Tapis de Marche & Mobilité",
         "icon": "Sparkles",
-        "description": "Barres LED à poser sur le moniteur : éclairent le bureau sans créer le moindre reflet sur l écran."
+        "description": "Walking pads ultra-plats, tapis pliables et planches d'équilibre pour bouger en travaillant."
+      },
+      {
+        "id": "claviers-ergonomiques",
+        "label": "Claviers Ergonomiques",
+        "icon": "Layers",
+        "description": "Claviers scindés, incurvés et en vague avec repose-poignets pour éviter les tendinites."
       },
       {
         "id": "souris-ergonomiques",
@@ -136,10 +148,28 @@
         "description": "Souris de productivité et modèles verticaux à 57° prévenant le syndrome du canal carpien."
       },
       {
+        "id": "lampes-screenbar",
+        "label": "Lampes d'Écran (Screenbar)",
+        "icon": "Sparkles",
+        "description": "Barres LED à poser sur le moniteur : éclairent le bureau sans créer le moindre reflet sur l'écran."
+      },
+      {
         "id": "repose-pieds-tapis",
-        "label": "Repose-pieds & Tapis Debout",
+        "label": "Repose-pieds & Posture",
         "icon": "Layers",
-        "description": "Repose-pieds massants et dalles en mousse dense pour amortir les stations prolongées."
+        "description": "Repose-pieds massants réglables et coussins ergonomiques pour soulager la posture assise."
+      },
+      {
+        "id": "cable-management-hubs",
+        "label": "Câbles & Organisation",
+        "icon": "Layers",
+        "description": "Goulottes sous bureau, stations d'accueil USB-C et accessoires pour un bureau épuré."
+      },
+      {
+        "id": "audio-video-visio",
+        "label": "Visio & Concentration",
+        "icon": "Sparkles",
+        "description": "Webcams professionnelles et casques antibruit pour des réunions à distance impeccables."
       }
     ]
   }

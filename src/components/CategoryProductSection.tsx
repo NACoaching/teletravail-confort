@@ -32,6 +32,17 @@ export default function CategoryProductSection({
 }: CategoryProductSectionProps) {
   const [selectedSubCat, setSelectedSubCat] = useState<string>("tous");
 
+  // Sync with URL query parameter ?sub=...
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const sub = params.get("sub");
+      if (sub && subCategories.some((s) => s.id === sub)) {
+        setSelectedSubCat(sub);
+      }
+    }
+  }, [subCategories]);
+
   // Map subCategory icons
   const getSubIcon = (iconName?: string) => {
     switch (iconName) {

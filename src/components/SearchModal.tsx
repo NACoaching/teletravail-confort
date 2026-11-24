@@ -68,14 +68,18 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
   }, [query]);
 
   const quickPills = [
+    "Tapis de marche",
+    "Clavier ergonomique",
+    "Souris verticale",
     "Bureau assis-debout",
     "Chaise ergonomique",
-    "Soutien lombaire",
-    "Flexispot",
-    "Sihoo",
+    "Repose-pieds",
+    "Coussin coccyx",
+    "Goulotte câbles",
+    "Webcam visio",
+    "Casque anti-bruit",
     "Bras double écran",
     "Lampe screenbar",
-    "Repose-pieds",
   ];
 
   if (!isOpen) return null;

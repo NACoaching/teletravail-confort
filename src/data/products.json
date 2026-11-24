@@ -712,5 +712,613 @@
     "isTopThree": false,
     "award": "Prévention Canal Carpien & Santé",
     "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "citysports-tapis-marche-pliable-bureau-wp2",
+    "slug": "citysports-tapis-marche-pliable-bureau-wp2",
+    "title": "Citysports Tapis de Marche Pliable : Le Tapis Compact Silencieux pour Bureau Assis-Debout",
+    "brand": "Citysports",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "tapis-marche-mobilite",
+    "subCategoryLabel": "Tapis de Marche & Mobilité",
+    "badge": "Best-Seller Mobilité",
+    "tagline": "Tapis de course et marche pliable jusqu à 12 km/h avec écran LED et télécommande pour bureau assis-debout.",
+    "description": "Le tapis de marche Citysports est la référence plébiscitée par plus de 5 000 utilisateurs pour intégrer une activité physique douce pendant le télétravail. Associé à un bureau assis-debout, il permet de lutter activement contre la sédentarité en marchant à 2 ou 3 km/h tout en traitant ses emails, assistant à des visioconférences ou rédigeant des documents sans saccade.",
+    "priceRange": "€€€",
+    "priceIndication": "189 € - 209 €",
+    "rating": 4.3,
+    "reviewCount": 5090,
+    "affiliateUrl": "https://link.amazon/B002QVANw",
+    "imageUrl": "/products/citysports-tapis-marche.jpg",
+    "pros": [
+      "Vitesse réglable de 1 à 12 km/h : idéal pour marcher en travaillant ou courir le soir",
+      "Moteur silencieux préservant le calme lors des réunions et appels en visio",
+      "Support tablette 360° et connectivité application mobile de suivi d activité",
+      "Rangement facile sous un meuble ou un lit grâce aux roulettes de transport intégrées"
+    ],
+    "cons": [
+      "Poids de 24 kg nécessitant un peu d énergie pour le relever à la verticale",
+      "Entretien régulier de la bande de roulement avec huile lubrifiante fournie"
+    ],
+    "features": {
+      "Vitesse réglable": "1 à 12 km/h",
+      "Dimensions de la bande": "100 x 38 cm",
+      "Moteur": "440W silencieux Brushless (< 50 dB)",
+      "Affichage": "Écran LED (temps, vitesse, distance, calories)",
+      "Poids max supporté": "110 kg"
+    },
+    "targetAudience": "Télétravailleurs sédentaires souhaitant atteindre facilement 10 000 pas quotidiens sans interrompre leurs journées d écran.",
+    "verdict": "Le rapport qualité/prix de référence pour s équiper d un vrai tapis de marche sous bureau fiable, polyvalent et accessible.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "walkingpad-z1-tapis-marche-pliable-ultra-compact",
+    "slug": "walkingpad-z1-tapis-marche-pliable-ultra-compact",
+    "title": "WalkingPad Z1 : Le Tapis de Marche Pliable à 180° Ultra-Fin pour Télétravail",
+    "brand": "WalkingPad",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "tapis-marche-mobilite",
+    "subCategoryLabel": "Tapis de Marche & Mobilité",
+    "badge": "Choix d Amazon - Ultra Pliable",
+    "tagline": "Système breveté de double pliage à 180° pour un encombrement minimal sous le bureau ou dans un placard.",
+    "description": "Véritable pionnier des walking pads de bureau, la marque WalkingPad propose avec le modèle Z1 une référence d ingénierie compacte. Grâce à sa charnière brevetée à 180°, ce tapis se replie en deux en quelques secondes pour atteindre une épaisseur de seulement 14 cm. Son moteur ultra-silencieux permet une marche continue sans jamais gêner vos collègues en réunion.",
+    "priceRange": "€€€",
+    "priceIndication": "299 € - 369 €",
+    "rating": 4.4,
+    "reviewCount": 391,
+    "affiliateUrl": "https://link.amazon/B07NA5pD5",
+    "imageUrl": "/products/walkingpad-z1-tapis-marche.jpg",
+    "pros": [
+      "Brevet de pliage en deux à 180° réduisant la surface de stockage de moitié",
+      "Moteur Brushless d une discrétion absolue (< 45 dB) parfait en appartement",
+      "Amorti multicouche préservant les articulations des genoux et chevilles",
+      "Châssis monobloc épuré avec panneau LED invisible éteint"
+    ],
+    "cons": [
+      "Vitesse maximale de 6 km/h réservée exclusivement à la marche active",
+      "Prix plus élevé que les modèles rigides classiques"
+    ],
+    "features": {
+      "Technologie de pliage": "Double pliage breveté à 180° (épaisseur plié : 14 cm)",
+      "Plage de vitesse": "0,5 à 6 km/h",
+      "Surface de marche": "120 x 40 cm",
+      "Niveau sonore": "< 45 dB à vitesse de travail (2,5 km/h)",
+      "Charge max": "105 kg"
+    },
+    "targetAudience": "Habitants d appartement et adeptes d intérieur épuré souhaitant un tapis de marche premium qui se range en un clin d œil.",
+    "verdict": "L excellence du tapis de marche sous bureau assis-debout : compacité maximale, silence remarquable et finitions haut de gamme.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "fezibo-planche-equilibre-anti-fatigue-bois-ergonomique",
+    "slug": "fezibo-planche-equilibre-anti-fatigue-bois-ergonomique",
+    "title": "FEZIBO Planche d Équilibre & Tapis Anti-Fatigue : Posture Active pour Bureau Assis-Debout",
+    "brand": "FEZIBO",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "tapis-marche-mobilite",
+    "subCategoryLabel": "Tapis de Marche & Mobilité",
+    "badge": "Posture Dynamique & Dos",
+    "tagline": "Planche en bois naturel à bascule douce avec picots de massage podal pour stimuler la circulation.",
+    "description": "Travailler debout sur un sol dur peut rapidement fatiguer la voûte plantaire et figer le bas du dos. La planche d équilibre FEZIBO allie un plateau en bois noble à une mousse haute densité avec picots de réflexologie 3D. Sa bascule douce à 8,5° incite à des micro-mouvements continus qui relancent le retour veineux et renforcent les muscles stabilisateurs profonds.",
+    "priceRange": "€€",
+    "priceIndication": "119 € - 139 €",
+    "rating": 4.4,
+    "reviewCount": 3819,
+    "affiliateUrl": "https://link.amazon/B0e1JSGb0",
+    "imageUrl": "/products/fezibo-planche-equilibre-anti-fatigue.jpg",
+    "pros": [
+      "Bascule naturelle à 8,5° sollicitant les abdominaux et mollets sans déstabiliser",
+      "Revêtement avec picots de massage stimulants pour les pieds nus ou en chaussettes",
+      "Plateau en bois multicouche robuste et résistant jusqu à 150 kg",
+      "Réduit drastiquement l ankylose des articulations lors des réunions debout"
+    ],
+    "cons": [
+      "Période d adaptation de quelques jours pour trouver sa posture naturelle",
+      "Poids plus conséquent qu un simple tapis souple"
+    ],
+    "features": {
+      "Angle de bascule": "8,5 degrés",
+      "Matériaux": "Bois naturel d ingénierie et mousse polyuréthane PU",
+      "Texture de surface": "Zones de massage 3D anti-dérapantes",
+      "Poids supporté": "Jusqu à 150 kg",
+      "Dimensions": "50 x 35 cm"
+    },
+    "targetAudience": "Utilisateurs de bureau assis-debout souffrant de raideurs aux jambes ou cherchant une alternative active et compacte au tapis roulant.",
+    "verdict": "Un accessoire ergonomique formidable pour tenir debout deux fois plus longtemps sans la moindre sensation de lourdeur.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "logitech-ergo-k860-clavier-ergonomique-sans-fil-azerty",
+    "slug": "logitech-ergo-k860-clavier-ergonomique-sans-fil-azerty",
+    "title": "Logitech ERGO K860 : Le Clavier Ergonomique Scindé avec Repose-Poignets Rembourré",
+    "brand": "Logitech",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "claviers-ergonomiques",
+    "subCategoryLabel": "Claviers Ergonomiques",
+    "badge": "Référence Médicale Anti-TMS",
+    "tagline": "Disposition incurvée scindée réduisant de 21 % la tension musculaire des trapèzes et poignets.",
+    "description": "Conçu et testé selon les critères des plus grands ergonomes, le Logitech ERGO K860 transforme radicalement la frappe bureautique. Son châssis courbé et scindé en deux dôme aligne naturellement les mains, les poignets et les avant-bras, supprimant les torsions douloureuses du canal carpien. Son repose-poignets triple épaisseur soulève la paume pour une décontraction totale.",
+    "priceRange": "€€",
+    "priceIndication": "79 € - 99 €",
+    "rating": 4.5,
+    "reviewCount": 564,
+    "affiliateUrl": "https://link.amazon/B03MD5ros",
+    "imageUrl": "/products/logitech-ergo-k860.jpg",
+    "pros": [
+      "Baisse prouvée de 21 % de l activité musculaire du trapèze supérieur",
+      "Repose-poignets coussiné ultra-doux avec 3 couches protectrices",
+      "Pieds d inclinaison inversée (0°, -4°, -7°) parfaits pour la frappe debout",
+      "Touches concaves silencieuses PerfectStroke pour une précision chirurgicale"
+    ],
+    "cons": [
+      "Une semaine d adaptation nécessaire pour acquérir la dactylo à dix doigts",
+      "Gabarit imposant nécessitant un espace de travail suffisant"
+    ],
+    "features": {
+      "Structure": "Touches scindées incurvées avec pavé numérique intégré",
+      "Connectivité": "Bluetooth Low Energy + Récepteur USB Unifying (3 appareils Easy-Switch)",
+      "Autonomie": "Jusqu à 2 ans avec 2 piles AAA fournies",
+      "Compatibilité": "Windows, macOS, Linux, ChromeOS, iPadOS",
+      "Certification": "Certifié ergonomique par United States Ergonomics"
+    },
+    "targetAudience": "Rédacteurs, programmeurs, administratifs et professionnels du web souffrant de tendinites ou de raideurs cervicales.",
+    "verdict": "L investissement ergonomique le plus efficace et médicalement reconnu pour éradiquer les douleurs de frappe quotidienne.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "logitech-wave-keys-clavier-ergonomique-sans-fil-azerty",
+    "slug": "logitech-wave-keys-clavier-ergonomique-sans-fil-azerty",
+    "title": "Logitech Wave Keys : Le Clavier Ergonomique Compact en Vague avec Repose-Poignets",
+    "brand": "Logitech",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "claviers-ergonomiques",
+    "subCategoryLabel": "Claviers Ergonomiques",
+    "badge": "Choix d Amazon - Prise en Main Immédiate",
+    "tagline": "Design compact en vague ondulée avec mousse à mémoire de forme : l ergonomie sans temps d adaptation.",
+    "description": "Le Logitech Wave Keys révolutionne l ergonomie au travail en éliminant toute difficulté d adaptation. Sa forme en vague berce vos mains dans une posture naturelle dès les premières minutes d utilisation, tandis que son repose-poignets rembourré en mousse à mémoire de forme évite toute pression dure sur le poignet. Son format compact permet en outre de rapprocher la souris pour soulager l épaule.",
+    "priceRange": "€€",
+    "priceIndication": "49 € - 69 €",
+    "rating": 4.4,
+    "reviewCount": 204,
+    "affiliateUrl": "https://link.amazon/B09pYYIfT",
+    "imageUrl": "/products/logitech-wave-keys.jpg",
+    "pros": [
+      "Prise en main immédiate sans aucune perte de vitesse de frappe",
+      "Format compact libérant de la place et évitant d étirer le bras vers la souris",
+      "Repose-poignets à mémoire de forme 3 couches extrêmement doux",
+      "Double connectivité Bluetooth et récepteur sécurisé Logi Bolt"
+    ],
+    "cons": [
+      "Espacement des touches un peu plus serré qu un clavier standard",
+      "Repose-poignets fixe non détachable"
+    ],
+    "features": {
+      "Design": "Clavier AZERTY en vague douce avec pavé numérique",
+      "Repose-poignets": "Mousse mémoire de forme intégrée",
+      "Connexions": "Bluetooth Low Energy + Récepteur USB Logi Bolt",
+      "Autonomie": "Jusqu à 36 mois avec 2 piles AAA incluses",
+      "Multi-OS": "Bascule instantanée entre 3 appareils (Mac, PC, tablette)"
+    },
+    "targetAudience": "Tous les télétravailleurs souhaitant un confort supérieur sans bouleverser leurs habitudes de frappe traditionnelles.",
+    "verdict": "Le compromis idéal entre compacité, soulagement des poignets et prix maîtrisé : un sans-faute grand public.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "anker-souris-verticale-ergonomique-sans-fil",
+    "slug": "anker-souris-verticale-ergonomique-sans-fil",
+    "title": "Anker Souris Verticale Ergonomique : La Solution N°1 Petit Prix Contre le Canal Carpien",
+    "brand": "Anker",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "souris-ergonomiques",
+    "subCategoryLabel": "Souris Ergonomiques",
+    "badge": "Best-Seller Absolu (+52 000 avis)",
+    "tagline": "Position poignée de main neutre à moins de 20 € pour supprimer les torsions de l avant-bras.",
+    "description": "Avec plus de 52 000 évaluations positives, la souris verticale sans fil Anker est l arme absolue pour soulager le poignet sans se ruiner. En redressant la main dans un angle vertical naturel, elle neutralise la torsion permanente des os de l avant-bras (pronation) imposée par les souris plates. Elle offre 5 boutons réactifs dont des raccourcis Suivant/Précédent très pratiques au quotidien.",
+    "priceRange": "€",
+    "priceIndication": "17 € - 22 €",
+    "rating": 4.3,
+    "reviewCount": 52548,
+    "affiliateUrl": "https://link.amazon/B0hAscBvK",
+    "imageUrl": "/products/anker-souris-verticale.jpg",
+    "pros": [
+      "Tarif imbattable sous la barre des 20 € pour essayer l ergonomie verticale",
+      "Soulagement quasi immédiat des tensions musculaires de la main et du poignet",
+      "Sensibilité réglable à la volée sur 3 niveaux (800 / 1200 / 1600 DPI)",
+      "Boutons latéraux facilitant la navigation web et bureautique"
+    ],
+    "cons": [
+      "Réservée uniquement aux droitiers",
+      "Fonctionne à piles AAA (non fournies) et non sur batterie rechargeable"
+    ],
+    "features": {
+      "Type de prise": "Verticale ergonomique en poignée de main",
+      "Capteur optique": "800 / 1200 / 1600 DPI avec sélecteur dédié",
+      "Connectique": "Sans fil 2.4 GHz avec nano-récepteur USB",
+      "Alimentation": "2 piles AAA avec mode veille automatique éco-énergie",
+      "Dimensions / Poids": "120 x 62 x 74 mm / 95 g"
+    },
+    "targetAudience": "Toute personne ressentant des picotements au poignet qui veut tester l efficacité d une souris ergonomique à moindre coût.",
+    "verdict": "Un rapport soulagement/prix indétrônable : indispensable pour franchir le pas de la souris ergonomique sans risque financier.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "logitech-mx-vertical-souris-ergonomique-sans-fil",
+    "slug": "logitech-mx-vertical-souris-ergonomique-sans-fil",
+    "title": "Logitech MX Vertical : La Souris Ergonomique Haute Précision à 57° pour Grandes Mains",
+    "brand": "Logitech",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "souris-ergonomiques",
+    "subCategoryLabel": "Souris Ergonomiques",
+    "badge": "Choix Premium Ergonomie",
+    "tagline": "Angle ergonomique optimal à 57° réduisant la tension musculaire de 10 % avec capteur 4000 DPI.",
+    "description": "Fleuron ergonomique de la gamme Logitech Master, la MX Vertical a été conçue pour combiner santé posturale et productivité sans compromis. Son inclinaison spécifique de 57° a été scientifiquement calculée pour détendre la musculature de l avant-bras tout en garantissant une stabilité sans faille. Son capteur optique haute précision 4 000 DPI permet de traverser plusieurs écrans 4K avec 4 fois moins de mouvements de bras.",
+    "priceRange": "€€€",
+    "priceIndication": "69 € - 89 €",
+    "rating": 4.5,
+    "reviewCount": 14259,
+    "affiliateUrl": "https://link.amazon/B07mQ1LeB",
+    "imageUrl": "/products/logitech-mx-vertical.jpg",
+    "pros": [
+      "Angle calculé scientifiquement à 57° pour un repos absolu du poignet",
+      "Capteur optique 4 000 DPI réduisant les micro-traumatismes par 4",
+      "Batterie rechargeable USB-C avec charge rapide (3 heures d usage en 1 minute)",
+      "Triple connexion Bluetooth, USB Unifying et câble avec technologie Logitech Flow"
+    ],
+    "cons": [
+      "Moins adaptée aux petites mains pour lesquelles la Logitech Lift reste préférable",
+      "Molette classique sans débrayage automatique"
+    ],
+    "features": {
+      "Angle d inclinaison": "57 degrés ergonomiques certifiés",
+      "Capteur": "Optique haute précision 400 à 4 000 DPI ajustable",
+      "Batterie": "Rechargeable USB-C (jusqu à 4 mois d autonomie)",
+      "Connexions": "Bluetooth + Récepteur USB + Câble de charge USB-C",
+      "Multi-ordinateurs": "Technologie Easy-Switch et Logitech Flow jusqu à 3 postes"
+    },
+    "targetAudience": "Professionnels, développeurs et graphistes aux mains moyennes à grandes cherchant la précision ultime sans douleur articulaire.",
+    "verdict": "La référence haut de gamme absolue des souris verticales : robuste, ultra-précise et remarquablement confortable.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "kensington-solemate-plus-repose-pieds-ergonomique-reglable",
+    "slug": "kensington-solemate-plus-repose-pieds-ergonomique-reglable",
+    "title": "Kensington SoleMate Plus : Repose-Pieds Ergonomique Réglable avec Système SmartFit",
+    "brand": "Kensington",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "repose-pieds-tapis",
+    "subCategoryLabel": "Repose-pieds & Posture",
+    "badge": "Choix d Amazon - SmartFit",
+    "tagline": "Inclinaison réglable sur 6 positions et hauteur ajustable avec pédale de verrouillage au pied.",
+    "description": "Le repose-pieds Kensington SoleMate Plus est conçu pour corriger l alignement de la colonne vertébrale en soutenant les jambes à la hauteur optimale. Grâce au système breveté SmartFit, vous trouvez instantanément le réglage de couleur adapté à votre morphologie. Sa pédale intégrée permet d ajuster l inclinaison jusqu à 20 degrés sans quitter votre fauteuil.",
+    "priceRange": "€€",
+    "priceIndication": "49 € - 59 €",
+    "rating": 4.1,
+    "reviewCount": 1107,
+    "affiliateUrl": "https://link.amazon/B02KEUYiT",
+    "imageUrl": "/products/kensington-solemate-plus.jpg",
+    "pros": [
+      "Système de code couleur SmartFit pour un réglage morphologique personnalisé en 30 secondes",
+      "Pédale de commande au pied pratique pour basculer l inclinaison sans se baisser",
+      "Surface d appui texturée anti-dérapante stimulant la voûte plantaire",
+      "Soulage immédiatement la pression sous les cuisses et le bas du dos sur siège haut"
+    ],
+    "cons": [
+      "Largeur de 45 cm nécessitant un dégagement libre sous le bureau",
+      "Châssis plastique robuste mais demandant un sol plat pour une adhérence parfaite"
+    ],
+    "features": {
+      "Hauteur réglable": "Réglage sur 6 hauteurs de 8,9 à 12,7 cm",
+      "Inclinaison": "Bascule libre ou verrouillable jusqu à 20°",
+      "Contrôle": "Pédale de verrouillage au pied sans effort",
+      "Surface": "Revêtement texturé massant antidérapant",
+      "Dimensions": "45 x 35 cm"
+    },
+    "targetAudience": "Télétravailleurs dont les pieds ne touchent pas totalement le sol à plat ou souffrant d une mauvaise circulation veineuse dans les jambes.",
+    "verdict": "Le repose-pieds professionnel par excellence : personnalisable, modulable au pied et redoutablement efficace pour soulager les lombaires.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "feagar-coussin-assise-orthopedique-mousse-memoire-coccyx",
+    "slug": "feagar-coussin-assise-orthopedique-mousse-memoire-coccyx",
+    "title": "Feagar Coussin d Assise Orthopédique : Mousse à Mémoire de Forme pour Soulager le Coccyx",
+    "brand": "Feagar",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "repose-pieds-tapis",
+    "subCategoryLabel": "Repose-pieds & Posture",
+    "badge": "Soulagement Coccyx & Sciatique",
+    "tagline": "Découpe ergonomique en U qui libère la pression sur le coccyx et améliore l assise au quotidien.",
+    "description": "Si l assise de votre chaise de bureau est devenue trop ferme ou affaissée, le coussin Feagar est la solution immédiate. Sa mousse à mémoire de forme haute densité épouse la courbure des fessiers et sa découpe postérieure anatomique en U laisse le coccyx en suspension libre. Il prévient les pincements sciatiques et soulage instantanément les douleurs après 3 heures d assise ininterrompue.",
+    "priceRange": "€",
+    "priceIndication": "34 € - 39 €",
+    "rating": 4.3,
+    "reviewCount": 4836,
+    "affiliateUrl": "https://link.amazon/B09sFeX80",
+    "imageUrl": "/products/feagar-coussin-coccyx.jpg",
+    "pros": [
+      "Découpe en U libérant le coccyx et évitant tout contact douloureux avec le siège",
+      "Mousse à mémoire de forme dense qui ne s aplatit pas même après des mois d usage quotidien",
+      "Housse en mesh respirante lavable en machine avec dessous antidérapant",
+      "Poignée de transport latérale pratique pour l emporter en voiture ou au coworking"
+    ],
+    "cons": [
+      "Rehausse la hauteur d assise de 7 cm (pensez à réajuster la hauteur de votre fauteuil)",
+      "Mousse plus ferme lors des premières minutes à froid en hiver"
+    ],
+    "features": {
+      "Matériau intérieur": "100% mousse à mémoire de forme polyuréthane haute résilience",
+      "Revêtement": "Housse zippée amovible respirante lavable",
+      "Base": "Picots en caoutchouc antidérapants",
+      "Dimensions": "45 x 37 x 7 cm",
+      "Poids": "750 g"
+    },
+    "targetAudience": "Personnes souffrant de douleurs au coccyx, sciatique, hernie discale légère ou assises sur un fauteuil trop dur.",
+    "verdict": "Un investissement bien-être minime qui transforme instantanément n importe quelle chaise basique en fauteuil moelleux et ergonomique.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "supportiback-coussin-lombaire-ergonomique-mousse-memoire",
+    "slug": "supportiback-coussin-lombaire-ergonomique-mousse-memoire",
+    "title": "Supportiback Coussin Lombaire Ergonomique : Maintien Dorsal Thérapeutique avec Sangles",
+    "brand": "Supportiback",
+    "categorySlug": "chaises-ergonomiques",
+    "subCategory": "soutien-lombaire",
+    "subCategoryLabel": "Soutien Lombaire & Dos",
+    "badge": "Approuvé Kinésithérapeutes",
+    "tagline": "Courbure anatomique maintenant le creux lombaire naturel sur n importe quel siège de bureau.",
+    "description": "La cause numéro un du mal de dos au bureau est l affaissement de la colonne en forme de C. Le coussin lombaire Supportiback restaure la lordose lombaire naturelle (forme en S). Équipé de deux sangles réglables extensibles, il se fixe fermement au dossier de votre fauteuil et ne glisse jamais lorsque vous vous relevez.",
+    "priceRange": "€",
+    "priceIndication": "29 € - 39 €",
+    "rating": 4.4,
+    "reviewCount": 3410,
+    "affiliateUrl": "https://link.amazon/B06krRRDl",
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
+    "pros": [
+      "Profil anatomique 3D comblant parfaitement le vide entre le bas du dos et le dossier",
+      "Deux sangles d attache ajustables empêchant le coussin de tomber au sol",
+      "Mousse à mémoire de forme infusée de gel régulateur de température",
+      "Recommandé par les spécialistes du dos pour prévenir les lumbagos"
+    ],
+    "cons": [
+      "Avance légèrement le corps vers l avant de l assise",
+      "Moins adapté aux chaises avec dossier déjà fortement galbé"
+    ],
+    "features": {
+      "Structure": "Mousse viscoélastique thermo-sensible",
+      "Fixation": "2 sangles élastiques robustes à boucle rapide",
+      "Housse": "Tissu mesh aéré anti-transpiration déhoussable",
+      "Dimensions": "38 x 32 x 10 cm",
+      "Entretien": "Housse lavable en machine à 30°C"
+    },
+    "targetAudience": "Employés et freelances dont le fauteuil actuel ne propose aucun renfort au niveau des reins et qui se voûtent vers l écran.",
+    "verdict": "La solution la plus rapide et économique pour corriger une mauvaise posture assise sans changer de mobilier.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "vivezen-siege-assis-genoux-ergonomique-bois-pliable",
+    "slug": "vivezen-siege-assis-genoux-ergonomique-bois-pliable",
+    "title": "Vivezen Siège Assis-Genoux en Bois : La Posture Active Sans Tassement Lombaire",
+    "brand": "Vivezen",
+    "categorySlug": "chaises-ergonomiques",
+    "subCategory": "sieges-assis-genoux",
+    "subCategoryLabel": "Sièges Assis-Genoux",
+    "badge": "Choix d Amazon - Posture Naturelle",
+    "tagline": "Bascule du bassin vers l avant et répartition du poids sur les tibias pour redresser le dos sans dossier.",
+    "description": "Inspiré des travaux ergonomiques scandinaves, le tabouret assis-genoux Vivezen révolutionne votre maintien corporel. En inclinant l assise vers l avant, il ouvre l angle tronc-cuisses à 110 degrés et fait basculer le bassin dans sa position neutre idéale. La colonne vertébrale s auto-grandit instinctivement, supprimant la compression sur les disques vertébraux.",
+    "priceRange": "€€",
+    "priceIndication": "54 € - 69 €",
+    "rating": 4,
+    "reviewCount": 550,
+    "affiliateUrl": "https://link.amazon/B00mYdeyE",
+    "imageUrl": "/products/vivezen-siege-assis-genoux.jpg",
+    "pros": [
+      "Redressement automatique de la posture sans effort musculaire conscient",
+      "Structure en bois de hêtre naturel pliable pour un rangement à plat immédiat",
+      "Coussins d assise et de genoux rembourrés de mousse épaisse grand confort",
+      "Monté sur 4 roulettes multidirectionnelles pour bouger librement autour du bureau"
+    ],
+    "cons": [
+      "Demande une alternance au début : commencez par des sessions de 45 minutes",
+      "Ne convient pas aux personnes ayant des problèmes articulaires sévères aux genoux"
+    ],
+    "features": {
+      "Châssis": "Bois naturel d ingénierie résistant",
+      "Capacité de pliage": "Pliable à plat en 2 secondes",
+      "Réglage": "Hauteur d assise ajustable sur 3 positions",
+      "Mobilité": "4 roulettes de sol intégrées",
+      "Charge max": "100 kg"
+    },
+    "targetAudience": "Télétravailleurs cherchant une assise dynamique alternative pour briser les habitudes sédentaires et redresser leur dos.",
+    "verdict": "Un classique ergonomique indémodable à prix très doux qui fait des miracles pour gainer le dos en douceur.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "scanfield-goulotte-passe-cables-sous-bureau-lot-2",
+    "slug": "scanfield-goulotte-passe-cables-sous-bureau-lot-2",
+    "title": "Scanfield Lot de 2 Goulottes Passe-Câbles : Panier Métallique Sous Bureau Sans Percer",
+    "brand": "Scandinavian Hub",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "cable-management-hubs",
+    "subCategoryLabel": "Câbles & Organisation",
+    "badge": "Top Offre - Fixation Sans Percer",
+    "tagline": "Pinces étaux ultra-robustes pour dissimuler multiprises, chargeurs et transformateurs sous le plateau.",
+    "description": "Rien ne gâche plus un beau bureau assis-debout que des fils qui pendent au sol. Le kit Scanfield comprend deux grands bacs en treillis métallique ajouré qui se fixent sous n importe quel bureau grâce à des pinces étaux rembourrées ne laissant aucune marque. Le treillis permet une dissipation thermique totale pour vos chargeurs de PC et blocs multiprises.",
+    "priceRange": "€",
+    "priceIndication": "19 € - 25 €",
+    "rating": 4.6,
+    "reviewCount": 246,
+    "affiliateUrl": "https://link.amazon/B0bvCFA3B",
+    "imageUrl": "/products/scanfield-goulotte-cables.jpg",
+    "pros": [
+      "Installation sans aucun perçage grâce aux pinces étaux à vis intégrées",
+      "Structure en fil d acier ouvert évitant la surchauffe des transformateurs d alimentation",
+      "Pack de 2 modules spacieux permettant d organiser séparément le courant fort et les câbles data",
+      "Passe-câbles latéraux facilitant l insertion et le retrait rapide de chargeurs d ordinateur"
+    ],
+    "cons": [
+      "Vérifier que l épaisseur de votre plateau de bureau est comprise entre 1,2 et 5 cm",
+      "La tête de la pince dépasse légèrement sur le bord arrière du plateau"
+    ],
+    "features": {
+      "Contenu": "Lot de 2 goulottes métalliques + 4 pinces étaux + bandes velcro",
+      "Matériau": "Acier carbone laqué noir anti-corrosion",
+      "Fixation": "Serrage à vis manuel sans outil ni colle",
+      "Capacité de charge": "Jusqu à 10 kg par panier",
+      "Dimensions par panier": "38 x 12 x 15 cm"
+    },
+    "targetAudience": "Tous les propriétaires de bureaux assis-debout qui veulent un espace net et dégagé où les câbles ne s accrochent pas lors de la montée du plateau.",
+    "verdict": "L accessoire de cable management indispensable : s installe en 3 minutes et nettoie définitivement la pollution visuelle sous le bureau.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "ugreen-revodok-pro-210-hub-docking-station-usb-c-10-en-1",
+    "slug": "ugreen-revodok-pro-210-hub-docking-station-usb-c-10-en-1",
+    "title": "UGREEN Revodok Pro 210 : Hub USB-C 10-en-1 Double Écran 4K et Charge 100W",
+    "brand": "UGREEN",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "cable-management-hubs",
+    "subCategoryLabel": "Câbles & Organisation",
+    "badge": "N°1 des Ventes Stations d Accueil",
+    "tagline": "Un seul câble USB-C pour connecter 2 écrans 4K, réseau Ethernet Gigabit, cartes SD et périphériques.",
+    "description": "La station d accueil UGREEN Revodok Pro 210 est le chaînon manquant pour simplifier votre quotidien de télétravailleur nomade. En branchant un unique câble USB-C à votre MacBook ou PC portable, vous alimentez la machine en charge rapide 100W Power Delivery tout en gérant simultanément deux écrans HDMI 4K@60Hz, une connexion internet filaire Gigabit ultra-stable et vos périphériques USB.",
+    "priceRange": "€",
+    "priceIndication": "36 € - 45 €",
+    "rating": 4.3,
+    "reviewCount": 4175,
+    "affiliateUrl": "https://link.amazon/B0buZxdU8",
+    "imageUrl": "/products/ugreen-hub-revodok-210.jpg",
+    "pros": [
+      "10 ports essentiels dans un boîtier compact en alliage d aluminium dissipateur",
+      "Double sortie HDMI 4K@60Hz pour connecter deux moniteurs externes simultanément",
+      "Recharge rapide Power Delivery 100W assurant une alimentation continue du laptop",
+      "Port Ethernet RJ45 Gigabit (1000 Mbps) pour des visioconférences sans coupure de Wi-Fi"
+    ],
+    "cons": [
+      "Sur macOS, le système Apple limite l affichage externe multi-écrans au mode miroir (SST)",
+      "Le boîtier tiédit normalement en pleine charge (dissipation thermique en aluminium)"
+    ],
+    "features": {
+      "Connectique vidéo": "2x HDMI (support jusqu à 4K 60Hz / 8K 30Hz unique)",
+      "Charge": "USB-C Power Delivery jusqu à 100W (85W restitués)",
+      "Réseau": "RJ45 Ethernet Gigabit 1000 Mbps",
+      "Données": "3x USB-A/C 5 Gbps + Lecteurs cartes SD/TF",
+      "Boîtier": "Aluminium anodisé gris sidéral"
+    },
+    "targetAudience": "Télétravailleurs alternant entre domicile et bureau qui veulent brancher tout leur équipement en une seule seconde.",
+    "verdict": "La meilleure station d accueil USB-C compacte du marché : complète, robuste et proposée à un tarif exceptionnel.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "logitech-brio-500-webcam-full-hd-visioconference",
+    "slug": "logitech-brio-500-webcam-full-hd-visioconference",
+    "title": "Logitech Brio 500 : La Webcam Full HD Intelligente avec Mode Show et Clapet de Confidentialité",
+    "brand": "Logitech",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "audio-video-visio",
+    "subCategoryLabel": "Visio & Concentration",
+    "badge": "Choix d Amazon - Visio Pro",
+    "tagline": "Correction d éclairage RightLight 4, double micro anti-bruit et mode Show pour présenter ses documents.",
+    "description": "Finies les images sombres et pixellisées de la caméra intégrée de votre ordinateur. La Logitech Brio 500 sublime votre image lors des réunions professionnelles grâce au capteur Full HD 1080p et à la technologie RightLight 4 qui compense automatiquement les contre-jours et le manque de luminosité. Son clapet mécanique intégré garantit une confidentialité totale entre deux rendez-vous.",
+    "priceRange": "€€",
+    "priceIndication": "74 € - 99 €",
+    "rating": 4.5,
+    "reviewCount": 1679,
+    "affiliateUrl": "https://link.amazon/B0cVKlZTG",
+    "imageUrl": "/products/logitech-brio-500.jpg",
+    "pros": [
+      "Excellente qualité vidéo 1080p 30fps avec correction automatique des visages sombres",
+      "Mode Show innovant : inclinez la caméra vers le bureau pour montrer des croquis ou notes manuscrites",
+      "Double micro avec réduction des bruits ambiants pour être entendu clairement sans écho",
+      "Volet de confidentialité mécanique à rotation simple pour une sérénité totale"
+    ],
+    "cons": [
+      "Résolution plafonnée au Full HD 1080p (pas de 4K, mais suffisant pour Teams/Meet/Zoom)",
+      "Câble USB-C inamovible d 1,5 mètre"
+    ],
+    "features": {
+      "Résolution": "Full HD 1080p / 30 fps ou 720p / 60 fps",
+      "Champ de vision": "Réglable 65°, 78° ou 90°",
+      "Audio": "2 micros à formation de faisceau avec réduction de bruit",
+      "Monture": "Pince magnétique universelle avec ventouse micro-aspiration",
+      "Connectique": "Câble USB-C Plug & Play certifié Teams, Zoom et Google Meet"
+    },
+    "targetAudience": "Managers, consultants, commerciaux et indépendants souhaitant projeter une image impeccable et professionnelle en réunion.",
+    "verdict": "La webcam moderne idéale pour le télétravail : élégante, lumineuse, astucieuse avec son mode Show et très simple d emploi.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "jabra-evolve2-65-casque-sans-fil-teletravail-micro-anti-bruit",
+    "slug": "jabra-evolve2-65-casque-sans-fil-teletravail-micro-anti-bruit",
+    "title": "Jabra Evolve2 65 : Le Casque Sans Fil Professionnel Certifié Teams avec Micro Anti-Bruit Ultime",
+    "brand": "Jabra",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "audio-video-visio",
+    "subCategoryLabel": "Visio & Concentration",
+    "badge": "Choix d Amazon - Référence Entreprise",
+    "tagline": "Isolation phonique passive remarquable, voyant d occupation Busylight 360° et 37h d autonomie.",
+    "description": "Le Jabra Evolve2 65 est la référence incontestée des casques de communication d entreprise. Sa perche micro rétractable à 3 microphones professionnels filtre instantanément les bruits de fond domestiques (enfants, aboiements, bruits de clavier, machine à café). Les coussinets en mousse à mémoire de forme isolent passivement 48 % de bruit ambiant supplémentaire, et le voyant Busylight 360° prévient votre entourage dès que vous êtes en communication.",
+    "priceRange": "€€€",
+    "priceIndication": "129 € - 179 €",
+    "rating": 4.3,
+    "reviewCount": 2434,
+    "affiliateUrl": "https://link.amazon/B0inBuxv8",
+    "imageUrl": "/products/jabra-evolve2-65.jpg",
+    "pros": [
+      "Perche micro révolutionnaire avec coupure automatique du son (mute) dès qu on la relève",
+      "Filtrage acoustique ultra-performant : vos interlocuteurs n entendent que votre voix",
+      "Autonomie impressionnante de 37 heures avec recharge rapide (8h en 15 minutes)",
+      "Connexion Bluetooth simultanée sur smartphone et ordinateur via l adaptateur USB Jabra Link"
+    ],
+    "cons": [
+      "Format supra-aural (repose sur l oreille) pouvant chauffer légèrement en pleine canicule",
+      "Tarif haut de gamme justifié par les certifications télécom professionnelles"
+    ],
+    "features": {
+      "Technologie audio": "3 microphones professionnels anti-bruit",
+      "Autonomie": "Jusqu à 37 heures en écoute / 35 heures en appel",
+      "Signalisation": "Busylight rouge 360° visible de tous les côtés",
+      "Connectivité": "Bluetooth 5.0 multi-points + Adaptateur USB Jabra Link 380",
+      "Portée": "Jusqu à 30 mètres sans coupure"
+    },
+    "targetAudience": "Professionnels passant plusieurs heures par jour au téléphone ou en réunion vidéo exigeant une clarté de voix irréprochable.",
+    "verdict": "L outil de travail ultime pour téléphoner en toute liberté chez soi sans jamais craindre que vos interlocuteurs entendent les bruits de la maison.",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "soundcore-space-one-casque-bluetooth-anc-reduction-bruit",
+    "slug": "soundcore-space-one-casque-bluetooth-anc-reduction-bruit",
+    "title": "Soundcore Space One : Le Casque Anti-Bruit Actif (ANC) Idéal pour se Concentrer en Télétravail",
+    "brand": "Anker Soundcore",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "audio-video-visio",
+    "subCategoryLabel": "Visio & Concentration",
+    "badge": "Rapport Qualité/Prix ANC Imbattable",
+    "tagline": "Réduction active adaptative des voix humaines jusqu à 2x plus efficace avec 55 heures d autonomie.",
+    "description": "Besoin de vous isoler dans votre bulle de travail pour rédiger, coder ou analyser des données sans être distrait par les bruits environnants ? Le casque Soundcore Space One d Anker intègre une réduction active de bruit adaptative calibrée spécifiquement pour étouffer les conversations et voix humaines. Son design circum-aural enveloppe délicatement les oreilles avec une mousse à mémoire de forme ultra-moelleuse.",
+    "priceRange": "€€",
+    "priceIndication": "64 € - 79 €",
+    "rating": 4.6,
+    "reviewCount": 16786,
+    "affiliateUrl": "https://link.amazon/B0iuO1AeF",
+    "imageUrl": "/products/soundcore-space-one.jpg",
+    "pros": [
+      "Réduction active de bruit adaptative (ANC) bluffante pour un casque sous les 70 €",
+      "Autonomie monstrueuse de 40 heures avec ANC activé (55 heures en mode normal)",
+      "Oreillettes pivotantes à 8° avec mousse douce s adaptant naturellement à la morphologie",
+      "Son certifié Hi-Res Audio avec codec LDAC pour écouter sa musique dans les meilleures conditions"
+    ],
+    "cons": [
+      "Micro intégré très correct pour le bureau mais inférieur à une perche dédiée en milieu très bruyant",
+      "Housse de transport souple plutôt qu un étui rigide thermoformé"
+    ],
+    "features": {
+      "Réduction de bruit": "ANC adaptative mesurant les bruits 3 fois par seconde",
+      "Transducteurs": "Haut-parleurs dynamiques de 40 mm",
+      "Autonomie": "40h (ANC activé) / 55h (standard) + recharge rapide 5 min pour 4h",
+      "Connexions": "Bluetooth 5.3 multipoint + Câble jack 3,5 mm inclus",
+      "Poids": "260 g"
+    },
+    "targetAudience": "Télétravailleurs vivant en famille, en colocation ou travaillant en open space cherchant un silence reposant à budget serré.",
+    "verdict": "Une merveille d isolation sonore : à ce niveau de tarif, aucun casque concurrent n offre une telle réduction de bruit et un tel confort d écoute.",
+    "updatedAt": "2026-11-24"
   }
 ]
