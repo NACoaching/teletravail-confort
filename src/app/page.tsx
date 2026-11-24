@@ -18,6 +18,7 @@ import {
 import { products, guides, categories } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
 import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
+import CraftDoodles from "@/components/CraftDoodles";
 
 export default function HomePage() {
   const getCategoryIcon = (iconName: string) => {
@@ -89,7 +90,8 @@ export default function HomePage() {
   };
 
   return (
-    <div className="relative overflow-hidden min-h-screen text-slate-900 bg-[#f8fafc]">
+    <div className="relative overflow-hidden min-h-screen text-slate-900 craft-dot-pattern">
+      <CraftDoodles />
       {/* Hero Section: Design Sobre, Épuré & Centré */}
       <section className="pt-6 pb-10 px-4 sm:px-6 relative">
         <div className="mx-auto max-w-5xl rounded-3xl sm:rounded-[2.5rem] bg-gradient-to-b from-white via-slate-50 to-blue-50/30 border border-slate-200/90 p-8 sm:p-12 lg:p-16 shadow-[0_20px_50px_-15px_rgba(15,23,42,0.05)] relative overflow-hidden text-center">
