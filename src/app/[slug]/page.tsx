@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `${SITE_CONFIG.domain}/${product.slug}`,
     },
     openGraph: {
-      title: `${product.title} : Avis Avis Avis Avis & Test d'Atelier Test Ergonomie Test Ergonomie Test Ergonomie | ${SITE_CONFIG.name}`,
+      title: `${product.title} : Avis & Test Ergonomie | ${SITE_CONFIG.name}`,
       description: cleanDesc,
       url: `${SITE_CONFIG.domain}/${product.slug}`,
       siteName: SITE_CONFIG.name,

@@ -174,7 +174,7 @@ export default function ContactForm({
                 <option value={`Proposition de partenariat - ${SITE_CONFIG.name}`}>
                   Proposition de partenariat
                 </option>
-                <option value="Autre demande - Coin Créatif">Autre demande</option>
+                <option value="Autre demande - Télétravail Confort">Autre demande</option>
               </select>
             </div>
 

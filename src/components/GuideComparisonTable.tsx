@@ -70,7 +70,7 @@ export default function GuideComparisonTable({ products, guideTitle }: GuideComp
           <tbody className="divide-y divide-[#f0e7dd] text-xs text-[#241b16]">
             {tableProducts.map((p, idx) => {
               const badge = getRankBadge(idx);
-              const amazonUrl = p.affiliateUrl || `https://www.amazon.fr/dp/${p.amazonAsin || ""}?tag=coincreatif-21`;
+              const amazonUrl = p.affiliateUrl || `https://www.amazon.fr/dp/${p.amazonAsin || ""}?tag=teletravailconfort-21`;
 
               return (
                 <tr
