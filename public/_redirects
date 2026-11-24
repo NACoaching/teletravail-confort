@@ -1,7 +1,8 @@
+# Redirections 301 des anciens guides vers les nouveaux
+/guides/bureau-assis-debout-lequel-choisir-comparatif-guide-achat /guides/meilleur-bureau-assis-debout-electrique-comparatif-avis 301
+/guides/meilleure-chaise-ergonomique-teletravail-mal-de-dos /guides/chaise-ergonomique-ou-fauteuil-gaming-comparatif-mal-de-dos 301
+/guides/amenager-coin-teletravail-petit-espace-appartement /guides/guide-bras-articule-support-ecran-pc-double-moniteur 301
+
+# Redirection générique
 /articles/* /guides 302
 /produit/* /:splat 301
-/das-pate-argile-terracotta-autodurcissante-1kg /categorie/modelage-argile 301
-/clairefontaine-bloc-bristol-extra-blanc-lisse-a4 /categorie/dessin-feutres 301
-/talens-art-creation-carnet-de-croquis-rigide-140g /categorie/dessin-feutres 301
-/pebeo-drawing-gum-fluide-masquage-aquarelle-45ml /categorie/aquarelle-peinture 301
-/raphael-pinceau-lavis-softaqua-serie-805 /categorie/aquarelle-peinture 301

@@ -59,24 +59,29 @@ export default function Footer() {
             </div>
             <ul className="space-y-1.5">
               <li>
-                <Link href="/guides/bureau-assis-debout-lequel-choisir-comparatif-guide-achat" className="hover:text-blue-400 transition">
-                  Quel Bureau Assis-Debout Choisir ?
+                <Link href="/guides/meilleur-bureau-assis-debout-electrique-comparatif-avis" className="hover:text-blue-400 transition">
+                  Meilleur Bureau Assis-Debout 2026
                 </Link>
               </li>
               <li>
-                <Link href="/guides/meilleure-chaise-ergonomique-teletravail-mal-de-dos" className="hover:text-blue-400 transition">
-                  Guide Chaises Anti-Mal de Dos
+                <Link href="/guides/chaise-ergonomique-ou-fauteuil-gaming-comparatif-mal-de-dos" className="hover:text-blue-400 transition">
+                  Chaise Ergonomique vs Gaming
                 </Link>
               </li>
               <li>
-                <Link href="/guides/amenager-coin-teletravail-petit-espace-appartement" className="hover:text-blue-400 transition">
-                  Télétravail en Petit Espace
+                <Link href="/guides/guide-bras-articule-support-ecran-pc-double-moniteur" className="hover:text-blue-400 transition">
+                  Bras Articulé & Double Écran
+                </Link>
+              </li>
+              <li>
+                <Link href="/guides/accessoires-indispensables-ergonomie-teletravail-screenbar-souris-verticale" className="hover:text-blue-400 transition">
+                  Accessoires Ergonomie & Screenbar
                 </Link>
               </li>
               <li>
                 <Link href="/guides" className="text-blue-400 hover:underline inline-flex items-center gap-1 font-semibold">
                   <BookOpen className="w-3 h-3" />
-                  Tous les dossiers ({SITE_CONFIG.foundingYear})
+                  Tous les guides & comparatifs
                 </Link>
               </li>
             </ul>
