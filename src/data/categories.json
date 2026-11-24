@@ -4,10 +4,10 @@
     "slug": "bureaux-assis-debout",
     "name": "Bureaux Assis-Debout",
     "shortName": "Bureaux Assis-Debout",
-    "description": "Aménagez un poste de travail dynamique pour soulager votre dos : bureaux électriques à double moteur, modèles compacts pour petits appartements (100x60 cm), bureaux d'angle et convertisseurs à poser testés pour leur stabilité et leur silence.",
+    "description": "Aménagez un poste de travail dynamique pour soulager votre dos : bureaux électriques motorisés, modèles compacts pour petits appartements (100x60 cm) et convertisseurs à poser testés pour leur stabilité et leur silence.",
     "icon": "Layers",
     "badgeColor": "blue",
-    "tagline": "Bureaux électriques réglables, compacts & bureaux d'angle",
+    "tagline": "Bureaux électriques réglables, compacts & convertisseurs vérin",
     "heroImage": "/category-bureaux.jpg",
     "subCategories": [
       {
@@ -28,10 +28,10 @@
         "description": "Plateaux de 100 à 120 cm parfaits pour installer un coin télétravail dans un appartement ou une chambre."
       },
       {
-        "id": "bureaux-angle",
-        "label": "Bureaux d'Angle",
+        "id": "convertisseurs-a-poser",
+        "label": "Convertisseurs à Poser",
         "icon": "Layers",
-        "description": "Bureaux en L pour maximiser l'espace et accueillir confortablement plusieurs écrans."
+        "description": "Plateformes réglables à vérin à gaz pour transformer n'importe quel bureau classique en poste assis-debout."
       }
     ]
   },
