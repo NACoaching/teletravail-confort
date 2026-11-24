@@ -250,11 +250,13 @@ export default async function GuideDetailPage({ params }: Props) {
         </section>
       )}
 
-      {/* CONTENU PRINCIPAL DU DOSSIER D'ACHAT (HTML riche balisé) */}
-      <div
-        className="prose prose-slate max-w-none guide-article-content prose-headings:font-bold prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed prose-li:text-slate-700 prose-a:text-blue-600 prose-a:font-semibold hover:prose-a:underline"
-        dangerouslySetInnerHTML={{ __html: guide.content }}
-      />
+      {/* CONTENU PRINCIPAL DU DOSSIER D'ACHAT (HTML riche balisé & aéré) */}
+      <article className="bg-white rounded-3xl p-6 sm:p-10 lg:p-12 border border-slate-200/90 shadow-sm max-w-4xl mx-auto">
+        <div
+          className="guide-article-content"
+          dangerouslySetInnerHTML={{ __html: guide.content }}
+        />
+      </article>
 
       {/* TOP 3 PODIUM INLINE DE RAPPEL */}
       {featuredProducts.length >= 3 && category && (

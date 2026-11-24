@@ -90,90 +90,62 @@ export default function HomePage() {
 
   return (
     <div className="relative overflow-hidden min-h-screen text-slate-900 bg-[#f8fafc]">
-      {/* Hero Section */}
-      <section className="pt-6 pb-12 px-4 sm:px-6 relative">
-        <div className="mx-auto max-w-6xl rounded-3xl sm:rounded-[2.5rem] bg-gradient-to-br from-white via-slate-50 to-blue-50/60 border border-slate-200/90 p-6 sm:p-10 lg:p-12 shadow-[0_20px_50px_-15px_rgba(15,23,42,0.08)] relative overflow-hidden">
+      {/* Hero Section: Design Sobre, Épuré & Centré */}
+      <section className="pt-6 pb-10 px-4 sm:px-6 relative">
+        <div className="mx-auto max-w-5xl rounded-3xl sm:rounded-[2.5rem] bg-gradient-to-b from-white via-slate-50 to-blue-50/30 border border-slate-200/90 p-8 sm:p-12 lg:p-16 shadow-[0_20px_50px_-15px_rgba(15,23,42,0.05)] relative overflow-hidden text-center">
           {/* Subtle radial glow */}
-          <div className="absolute -top-24 -left-24 w-80 h-80 bg-blue-400/15 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-indigo-500/15 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center relative z-10">
-            {/* Left Column: Headline */}
-            <div className="md:col-span-7 space-y-5 text-left">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold tracking-wide">
-                <Zap className="w-3.5 h-3.5 text-blue-600" />
-                <span>Le Guide du Set-Up Ergonomique &amp; Home Office 2026</span>
-              </div>
-
-              <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-black text-slate-900 tracking-tight leading-[1.15]">
-                Travaillez sans douleur, libérez votre espace et{" "}
-                <span className="text-blue-600">
-                  adoptez la bonne posture.
-                </span>
-              </h1>
-
-              <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-xl">
-                Bureaux assis-debout silencieux, chaises en maille respirante, bras d&apos;écrans et éclairages screenbar : nos sélections testées et comparatifs indépendants pour aménager un poste de travail sain et productif à la maison.
-              </p>
-
-              {/* CTAs */}
-              <div className="flex flex-wrap items-center gap-3 pt-2">
-                <Link
-                  href="/categorie/bureaux-assis-debout"
-                  className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm shadow-md shadow-blue-500/25 transition-all hover:-translate-y-0.5 cursor-pointer"
-                >
-                  <Monitor className="w-4 h-4" />
-                  <span>Explorer les Bureaux Assis-Debout</span>
-                </Link>
-
-                <Link
-                  href="/guides"
-                  className="inline-flex items-center gap-2 px-4 py-3 rounded-xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-bold text-xs sm:text-sm transition-all shadow-xs"
-                >
-                  <BookOpen className="w-4 h-4 text-blue-600" />
-                  <span>Voir tous nos comparatifs</span>
-                </Link>
-              </div>
-
-              {/* Badges Trust */}
-              <div className="flex flex-wrap items-center gap-4 pt-3 text-xs text-slate-500 border-t border-slate-200/80">
-                <span className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                  Tests de stabilité et bruit
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                  Spécial petits espaces &amp; appartements
-                </span>
-              </div>
+          <div className="max-w-3xl mx-auto space-y-6 relative z-10">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold tracking-wide">
+              <Zap className="w-3.5 h-3.5 text-blue-600" />
+              <span>Le Guide du Set-Up Ergonomique &amp; Home Office 2026</span>
             </div>
 
-            {/* Right Column: Hero Visual Card */}
-            <div className="md:col-span-5 relative">
-              <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-white aspect-[4/3]">
-                <Image
-                  src="https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?auto=format&fit=crop&w=1000&q=80"
-                  alt="Poste de travail assis-debout ergonomique moderne"
-                  fill
-                  priority
-                  sizes="(max-width: 768px) 100vw, 40vw"
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
-                <div className="absolute bottom-3 left-3 right-3 p-3 rounded-xl bg-white/95 backdrop-blur-md border border-white/50 text-slate-900 flex items-center justify-between">
-                  <div>
-                    <div className="text-[10px] font-bold uppercase tracking-wider text-blue-600">
-                      Recommandation N°1
-                    </div>
-                    <div className="text-xs font-extrabold text-slate-900">
-                      Flexispot EG1 (120x60 cm)
-                    </div>
-                  </div>
-                  <span className="text-xs font-bold px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800">
-                    &lt; 200 €
-                  </span>
-                </div>
-              </div>
+            <h1 className="text-3xl sm:text-4xl lg:text-[2.85rem] font-black text-slate-900 tracking-tight leading-[1.18]">
+              Travaillez sans douleur, libérez votre espace et{" "}
+              <span className="text-blue-600">
+                adoptez la bonne posture.
+              </span>
+            </h1>
+
+            <p className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
+              Bureaux assis-debout silencieux, chaises en maille respirante, tapis de marche, bras d&apos;écrans et périphériques ergonomiques : nos sélections testées et comparatifs indépendants pour aménager un poste de travail sain et productif.
+            </p>
+
+            {/* CTAs */}
+            <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
+              <Link
+                href="/categorie/bureaux-assis-debout"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-md shadow-blue-500/25 transition-all hover:-translate-y-0.5 cursor-pointer"
+              >
+                <Monitor className="w-4 h-4" />
+                <span>Explorer les Bureaux Assis-Debout</span>
+              </Link>
+
+              <Link
+                href="/guides"
+                className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-bold text-sm transition-all shadow-xs"
+              >
+                <BookOpen className="w-4 h-4 text-blue-600" />
+                <span>Tous nos guides &amp; comparatifs (9)</span>
+              </Link>
+            </div>
+
+            {/* Badges Trust */}
+            <div className="flex flex-wrap items-center justify-center gap-6 pt-6 text-xs text-slate-500 border-t border-slate-200/80 max-w-xl mx-auto">
+              <span className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                Tests de stabilité et niveau sonore
+              </span>
+              <span className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                Spécial petits espaces &amp; appartements
+              </span>
+              <span className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                100% sélections indépendantes 2026
+              </span>
             </div>
           </div>
         </div>
