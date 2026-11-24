@@ -276,5 +276,203 @@
     "podiumRank": 1,
     "award": "Coup de Cœur Confort Visuel",
     "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "sihoo-m57-chaise-ergonomique-bureau-maille-mesh",
+    "slug": "sihoo-m57-chaise-ergonomique-bureau-maille-mesh",
+    "title": "Sihoo M57 : Chaise de Bureau Ergonomique Respirante en Maille Mesh 3D",
+    "brand": "Sihoo",
+    "categorySlug": "chaises-ergonomiques",
+    "subCategory": "maille-mesh",
+    "subCategoryLabel": "Maille Mesh Respirante",
+    "priceIndication": "169 € - 219 €",
+    "rating": 4.3,
+    "reviewCount": 8688,
+    "badge": "Choix de la Rédaction",
+    "imageUrl": "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B01sJae9C",
+    "pros": [
+      "Maille intégrale hautement respirante évitant toute accumulation de chaleur",
+      "Support lombaire bidirectionnel ajustable en hauteur et en profondeur",
+      "Accoudoirs 3D orientables et appui-tête réglable pour détendre les cervicales",
+      "Base en aluminium renforcée supportant jusqu à 150 kg avec roulettes silencieuses"
+    ],
+    "cons": [
+      "Assise en maille plus ferme que les coussins en mousse conventionnels",
+      "Poids du colis supérieur à 20 kg nécessitant un montage à deux de préférence"
+    ],
+    "features": {
+      "Matériau": "Maille mesh haute élasticité respirante",
+      "Support lombaire": "Réglable 2D (hauteur et profondeur)",
+      "Accoudoirs": "3D réglables (hauteur, profondeur et angle)",
+      "Inclinaison dossier": "Blocage 3 positions jusqu à 126°",
+      "Charge maximale": "150 kg (base aluminium renforcée)"
+    },
+    "targetAudience": "Télétravailleurs passant 7 à 9h par jour assis et recherchant une aération maximale et un maintien lombaire réglable.",
+    "description": "La Sihoo M57 est l une des chaises ergonomiques les plus vendues d Europe. Sa structure entièrement habillée de maille mesh offre un soutien équilibré tout en garantissant une circulation d air continue. Son support lombaire réglable permet de combler précisément le creux du bas du dos.",
+    "verdict": "La référence incontournable pour un confort thermique et postural parfait au quotidien.",
+    "isFeatured": true,
+    "isTopThree": true,
+    "podiumRank": 1,
+    "award": "Choix de la Rédaction",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "ticova-chaise-ergonomique-bureau-support-lombaire-reglable",
+    "slug": "ticova-chaise-ergonomique-bureau-support-lombaire-reglable",
+    "title": "Ticova : Chaise Ergonomique à Dossier Inclinable 130° et Support Lombaire",
+    "brand": "Ticova",
+    "categorySlug": "chaises-ergonomiques",
+    "subCategory": "soutien-lombaire",
+    "subCategoryLabel": "Soutien Lombaire & Dos",
+    "priceIndication": "129 € - 169 €",
+    "rating": 4.1,
+    "reviewCount": 2010,
+    "badge": "Choix d Amazon",
+    "imageUrl": "https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B0d7ceOHN",
+    "pros": [
+      "Assise en mousse haute densité ultra-moelleuse qui soulage le bassin",
+      "Dossier inclinable jusqu à 130° parfait pour les pauses détente et la lecture",
+      "Support lombaire ergonomique réglable en hauteur et profondeur",
+      "Appui-tête incurvé ajustable en angle et hauteur pour caler la nuque"
+    ],
+    "cons": [
+      "Assise en mousse plus chaude que la maille intégrale en plein été",
+      "Accoudoirs légèrement fermes lors d un appui prolongé"
+    ],
+    "features": {
+      "Assise": "Mousse élastique haute résilience 7 cm",
+      "Dossier": "Mesh respirant à haut dossier",
+      "Inclinaison": "Pivotant et inclinable jusqu à 130°",
+      "Réglages": "Appui-tête 3D et support lombaire réglable",
+      "Charge maximale": "140 kg"
+    },
+    "targetAudience": "Ceux qui préfèrent le moelleux d une vraie assise en mousse plutôt que le contact d une toile tendue.",
+    "description": "La chaise Ticova combine le meilleur des deux mondes : un dossier en maille respirante pour aérer le dos, et une assise généreusement rembourrée en mousse haute densité pour éliminer les points de pression sur le fessier et les cuisses.",
+    "verdict": "Le meilleur compromis confort/mousse pour les longues sessions de travail.",
+    "isFeatured": true,
+    "isTopThree": true,
+    "podiumRank": 2,
+    "award": "Meilleur Confort d Assise",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "sihoo-doro-c300-chaise-ergonomique-support-dynamique",
+    "slug": "sihoo-doro-c300-chaise-ergonomique-support-dynamique",
+    "title": "Sihoo Doro C300 : Chaise Ergonomique Premium avec Support Lombaire Dynamique",
+    "brand": "Sihoo",
+    "categorySlug": "chaises-ergonomiques",
+    "subCategory": "soutien-lombaire",
+    "subCategoryLabel": "Soutien Lombaire & Dos",
+    "priceIndication": "239 € - 299 €",
+    "rating": 4.3,
+    "reviewCount": 1388,
+    "badge": "Choix d Amazon",
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B03HKTq0a",
+    "pros": [
+      "Système lombaire auto-adaptatif dynamique qui suit chaque mouvement du dos",
+      "Dossier flexible breveté épousant les mouvements de rotation de la colonne",
+      "Accoudoirs 3D ultra-doux synchronisés avec l inclinaison du dossier",
+      "Design futuriste haut de gamme avec châssis chromé et maille Cloud"
+    ],
+    "cons": [
+      "Tarif plus élevé justifié par les mécanismes dynamiques brevetés",
+      "Assise profonde demandant de bien caler le bassin au fond"
+    ],
+    "features": {
+      "Mécanisme": "Soutien lombaire auto-ajustable dynamique",
+      "Dossier": "Flexible à suspension triangulaire adaptable",
+      "Accoudoirs": "3D ultra-doux coordonnés",
+      "Châssis": "Pieds en métal poli haute finition",
+      "Certification": "BIFMA et SGS classe 4"
+    },
+    "targetAudience": "Professionnels exigeants recherchant une chaise ergonomique haut de gamme sans atteindre le prix des modèles Herman Miller (> 1000 €).",
+    "description": "La Sihoo Doro C300 intègre un support lombaire dynamique révolutionnaire qui bouge avec votre corps sans nécessiter de réglage manuel. Que vous soyez penché en avant sur un dossier ou relaxé en arrière lors d un appel, elle maintient un contact permanent et bienveillant avec votre colonne vertébrale.",
+    "verdict": "La chaise ergonomique la plus évoluée technologiquement sous la barre des 300 €.",
+    "isFeatured": true,
+    "isTopThree": true,
+    "podiumRank": 3,
+    "award": "Technologie Ergonomique Avancée",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "songmics-kime-chaise-ergonomique-accoudoirs-relevables",
+    "slug": "songmics-kime-chaise-ergonomique-accoudoirs-relevables",
+    "title": "Songmics Kime : Chaise de Bureau Ergonomique avec Accoudoirs Rabattables",
+    "brand": "Songmics",
+    "categorySlug": "chaises-ergonomiques",
+    "subCategory": "compactes-accoudoirs-relevables",
+    "subCategoryLabel": "Accoudoirs Relevables",
+    "priceIndication": "69 € - 89 €",
+    "rating": 4.1,
+    "reviewCount": 976,
+    "badge": "Choix d Amazon",
+    "imageUrl": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B0gloq4io",
+    "pros": [
+      "Accoudoirs rabattables à 90° permettant de glisser totalement la chaise sous le bureau",
+      "Prix très doux sous les 80 € idéal pour les budgets modérés",
+      "Dossier en maille double couche respirante avec appui-tête réglable",
+      "Mécanisme de bascule relaxant avec résistance réglable par molette"
+    ],
+    "cons": [
+      "Dossier non inclinable indépendamment (bascule globale de l ensemble)",
+      "Rembourrage conçu pour des journées de 4 à 6 heures de télétravail"
+    ],
+    "features": {
+      "Accoudoirs": "Rabattables à 90° vers le haut (gain de place)",
+      "Tissu": "Maille double couche haute résistance",
+      "Appui-tête": "Réglable en hauteur",
+      "Base": "Étoile 5 branches renforcée",
+      "Charge maximale": "130 kg"
+    },
+    "targetAudience": "Télétravailleurs dans de petites pièces qui souhaitent ranger leur chaise sous le plateau pour libérer le passage.",
+    "description": "La Songmics Kime est la reine du gain de place : ses accoudoirs se relèvent d un seul geste pour permettre à la chaise de se glisser entièrement sous votre bureau après votre journée de travail, libérant ainsi l espace dans votre chambre ou salon.",
+    "verdict": "Le choix malin pour concilier ergonomie, petit budget et encombrement minimal.",
+    "isFeatured": true,
+    "isTopThree": false,
+    "award": "Idéal Petits Espaces & Gain de Place",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "naspaluro-chaise-bureau-ergonomique-compacte",
+    "slug": "naspaluro-chaise-bureau-ergonomique-compacte",
+    "title": "Naspaluro : Chaise de Bureau Ergonomique avec Support Lombaire en C",
+    "brand": "Naspaluro",
+    "categorySlug": "chaises-ergonomiques",
+    "subCategory": "compactes-accoudoirs-relevables",
+    "subCategoryLabel": "Accoudoirs Relevables",
+    "priceIndication": "75 € - 95 €",
+    "rating": 4.3,
+    "reviewCount": 1807,
+    "badge": "#1 Meilleure Vente",
+    "imageUrl": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B04ck8MMN",
+    "pros": [
+      "N°1 des ventes Amazon dans sa catégorie avec plus de 1 800 avis positifs",
+      "Support lombaire anatomique en forme de C qui épouse le bas du dos",
+      "Accoudoirs réversibles relevables pour un rangement compact sous la table",
+      "Montage ultra-rapide en 15 minutes avec notice claire"
+    ],
+    "cons": [
+      "Gabarit compact idéal jusqu à 1m85 (moins adapté aux personnes de plus de 1m90)",
+      "Assise en mousse de densité intermédiaire"
+    ],
+    "features": {
+      "Dossier": "Courbure ergonomique en C avec mesh respirant",
+      "Accoudoirs": "Relevables (Reversible Armrest)",
+      "Appui-tête": "Ajustable en hauteur et angle",
+      "Vérin": "Certifié SGS pour un réglage de hauteur en douceur",
+      "Charge maximale": "136 kg"
+    },
+    "targetAudience": "Étudiants et télétravailleurs cherchant la chaise n°1 des ventes la plus polyvalente sous la barre des 90 €.",
+    "description": "Classée n°1 des ventes Amazon, cette chaise Naspaluro séduit par sa courbure lombaire en C qui soutient efficacement le rachis sans réglage complexe. Ses accoudoirs escamotables en font une solution ultra-pratique au quotidien.",
+    "verdict": "Le rapport qualité/prix plébiscité par des milliers de télétravailleurs.",
+    "isFeatured": true,
+    "isTopThree": false,
+    "award": "#1 Meilleure Vente Amazon",
+    "updatedAt": "2026-11-24"
   }
 ]
