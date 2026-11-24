@@ -198,46 +198,6 @@
     "updatedAt": "2026-11-24"
   },
   {
-    "id": "huanuo-bras-articule-double-ecran-pc-verin-gaz",
-    "slug": "huanuo-bras-articule-double-ecran-pc-verin-gaz",
-    "title": "Huanuo : Bras Articulé Double Écran à Vérin à Gaz (13 à 32 Pouces)",
-    "brand": "Huanuo",
-    "categorySlug": "supports-bras-ecrans",
-    "subCategory": "double-ecran",
-    "subCategoryLabel": "Double Écran",
-    "priceIndication": "54 € - 79 €",
-    "rating": 4.6,
-    "reviewCount": 11300,
-    "badge": "Incontournable Set-Up",
-    "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
-    "affiliateUrl": "https://www.amazon.fr/dp/B07T5SY43L?tag=teletravailconfort-21",
-    "pros": [
-      "Libère jusqu'à 80% d'espace libre sur le plateau de bureau",
-      "Vérins à gaz permettant d'orienter les 2 écrans d'un simple geste",
-      "Double fixation : pince étau sans percer ou passe-câble à œillet",
-      "Système de passe-câbles intégré pour un rendu visuel net"
-    ],
-    "cons": [
-      "Réglage de la tension du vérin nécessaire lors de la première pose",
-      "Nécessite des écrans compatibles norme VESA (75x75 ou 100x100)"
-    ],
-    "features": {
-      "Compatibilité écrans": "13 à 32 pouces (diagonale)",
-      "Norme VESA": "75x75 mm et 100x100 mm",
-      "Charge par bras": "2 à 9 kg par écran",
-      "Fixation": "Pince étau (10-85 mm) ou perçage œillet",
-      "Orientation": "Rotation 360°, pivot 180°, inclinaison ±45°"
-    },
-    "targetAudience": "Professionnels et développeurs utilisant 2 moniteurs côte à côte.",
-    "description": "Le bras double Huanuo est l'accessoire roi pour transformer un set-up double moniteur. En suspendant vos écrans au-dessus de votre table, vous alignez vos écrans à hauteur exacte des yeux pour bannir les douleurs cervicales.",
-    "verdict": "L'accessoire indispensable pour tout télétravailleur travaillant avec 2 écrans.",
-    "isFeatured": true,
-    "isTopThree": true,
-    "podiumRank": 1,
-    "award": "Incontournable Set-Up",
-    "updatedAt": "2026-11-24"
-  },
-  {
     "id": "xiaomi-mi-computer-monitor-light-bar-1s-screenbar",
     "slug": "xiaomi-mi-computer-monitor-light-bar-1s-screenbar",
     "title": "Xiaomi Mi Monitor Light Bar 1S : Lampe de Moniteur Anti-Reflets avec Télécommande Sans Fil",
@@ -473,6 +433,165 @@
     "isFeatured": true,
     "isTopThree": false,
     "award": "#1 Meilleure Vente Amazon",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "huanuo-support-double-ecran-verin-gaz-13-32",
+    "slug": "huanuo-support-double-ecran-verin-gaz-13-32",
+    "title": "Huanuo : Support Double Écran PC à Vérin à Gaz (13 à 32 Pouces, 9 kg par Bras)",
+    "brand": "Huanuo",
+    "categorySlug": "supports-bras-ecrans",
+    "subCategory": "bras-verin-gaz",
+    "subCategoryLabel": "Bras Articulés (Vérin)",
+    "priceIndication": "59 € - 79 €",
+    "rating": 4.5,
+    "reviewCount": 776,
+    "badge": "Choix de la Rédaction",
+    "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B07s44qdG",
+    "pros": [
+      "Structure en aluminium robuste capable de supporter jusqu à 9 kg par bras",
+      "Mouvement fluide à 360° avec vérins à gaz réglables",
+      "Libère immédiatement la surface du bureau en supprimant les pieds massifs",
+      "Double mode de fixation sans perçage : pince en C ou fixation œillet"
+    ],
+    "cons": [
+      "Nécessite un réglage minutieux de la vis de tension du vérin lors de l installation",
+      "Vérifier la compatibilité VESA (75x75 ou 100x100) au dos de vos moniteurs"
+    ],
+    "features": {
+      "Compatibilité": "Écrans 13 à 32 pouces",
+      "Charge max": "9 kg par bras",
+      "Norme VESA": "75x75 mm et 100x100 mm",
+      "Réglages": "Inclinaison +80°/-35°, pivot 360°, rotation 90°",
+      "Matériau": "Aluminium et acier haute résistance"
+    },
+    "targetAudience": "Télétravailleurs et développeurs équipés de deux écrans lourds ou grands moniteurs jusqu à 32 pouces.",
+    "description": "Le bras articulé Huanuo à vérin à gaz permet de suspendre vos deux moniteurs au-dessus du bureau pour un alignement parfait à hauteur des yeux. Conçu en aluminium renforcé, il supporte sans trembler des écrans allant jusqu à 32 pouces et 9 kg chacun.",
+    "verdict": "La référence solidité et fluidité pour les configurations double écran exigeantes.",
+    "isFeatured": true,
+    "isTopThree": true,
+    "podiumRank": 1,
+    "award": "Choix de la Rédaction",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "huanuo-flowlift-pro-support-double-ecran-13-27",
+    "slug": "huanuo-flowlift-pro-support-double-ecran-13-27",
+    "title": "Huanuo FlowLift Pro : Bras Double Écran Mécanique (13 à 27 Pouces)",
+    "brand": "Huanuo",
+    "categorySlug": "supports-bras-ecrans",
+    "subCategory": "double-ecran",
+    "subCategoryLabel": "Double Écran",
+    "priceIndication": "35 € - 49 €",
+    "rating": 4.6,
+    "reviewCount": 868,
+    "badge": "Choix d Amazon",
+    "imageUrl": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B0gOgPhks",
+    "pros": [
+      "Système MechaSpring ultra-réactif avec montage VESA rapide sans outil",
+      "Tarif imbattable sous les 40 € pour un équipement double écran complet",
+      "Gestion propre des câbles dissimulée le long des bras articulés",
+      "Double système d ancrage pince en C ou passe-câbles œillet inclus"
+    ],
+    "cons": [
+      "Limité aux écrans jusqu à 27 pouces (maximum 7 kg par moniteur)",
+      "Moins adapté aux écrans ultra-larges 34 pouces ou incurvés très lourds"
+    ],
+    "features": {
+      "Compatibilité": "Écrans 13 à 27 pouces",
+      "Charge max": "7 kg par bras",
+      "Technologie": "Ressorts mécaniques MechaSpring",
+      "Montage": "VESA amovible sans outil",
+      "Fixation": "Pince étau ou œillet"
+    },
+    "targetAudience": "Télétravailleurs souhaitant installer deux écrans de 24 ou 27 pouces à budget très serré.",
+    "description": "Le FlowLift Pro de Huanuo démocratise le confort du double écran grâce à son système de fixation VESA sans outil et ses ressorts mécaniques MechaSpring. Simple à poser, il nettoie visuellement votre poste de travail.",
+    "verdict": "Le meilleur rapport qualité/prix pour installer 2 écrans de bureau sans dépasser 40 €.",
+    "isFeatured": true,
+    "isTopThree": true,
+    "podiumRank": 2,
+    "award": "Meilleur Rapport Qualité/Prix",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "bontec-rehausseur-ecran-bureau-bois-extensible",
+    "slug": "bontec-rehausseur-ecran-bureau-bois-extensible",
+    "title": "Bontec : Rehausseur d Écran en Bois Extensible pour 2 Moniteurs (80-108 cm)",
+    "brand": "Bontec",
+    "categorySlug": "supports-bras-ecrans",
+    "subCategory": "double-ecran",
+    "subCategoryLabel": "Double Écran",
+    "priceIndication": "25 € - 35 €",
+    "rating": 4.6,
+    "reviewCount": 6951,
+    "badge": "Choix d Amazon",
+    "imageUrl": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B012kmX4Q",
+    "pros": [
+      "Longueur extensible de 80 à 108 cm pour s adapter à la largeur de vos écrans",
+      "Plateaux latéraux orientables en ligne droite ou en angle ergonomique",
+      "Espace de rangement libre en dessous pour glisser clavier, souris et carnets",
+      "Aucune fixation à serrer sur le plateau : se pose directement sur le meuble"
+    ],
+    "cons": [
+      "Hauteur fixe (ne permet pas de réglage dynamique vertical)",
+      "Occupe une partie de la surface au sol du bureau"
+    ],
+    "features": {
+      "Dimensions": "Extensible de 80 à 108 cm (profondeur 23,5 cm)",
+      "Matériau": "Panneaux MDF bois finition noire soignée",
+      "Capacité": "Accueille 2 moniteurs ou 1 écran + 1 PC portable",
+      "Configuration": "Disposition droite ou en angle selon le poste",
+      "Montage": "Assemblage simple en moins de 10 minutes"
+    },
+    "targetAudience": "Ceux qui ne peuvent pas fixer de pince étau sur leur bureau (bureau fermé à l arrière ou plateau en verre).",
+    "description": "Le rehausseur Bontec est la solution parfaite pour surélever deux écrans sans percer ni pincer votre bureau. Ses deux plateaux latéraux pivotent pour orienter vos moniteurs en arc de cercle et offrent des rangements utiles sous les écrans.",
+    "verdict": "L alternative indispensable aux bras métalliques pour les bureaux incompatibles avec les pinces.",
+    "isFeatured": true,
+    "isTopThree": false,
+    "award": "Idéal sans Fixation Étau",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "lamicall-support-ordinateur-portable-aluminium-360",
+    "slug": "lamicall-support-ordinateur-portable-aluminium-360",
+    "title": "Lamicall : Support PC Portable Pliable en Aluminium Rotatif à 360°",
+    "brand": "Lamicall",
+    "categorySlug": "supports-bras-ecrans",
+    "subCategory": "supports-laptop",
+    "subCategoryLabel": "Supports PC Portables",
+    "priceIndication": "45 € - 59 €",
+    "rating": 4.7,
+    "reviewCount": 471,
+    "badge": "Choix de la Rédaction",
+    "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B0iqUKQuT",
+    "pros": [
+      "Base rotative à 360° pour faire pivoter son écran d un seul doigt",
+      "Structure 100% aluminium usiné ultra-stable sans tremblements lors de la frappe",
+      "Plateau aéré favorisant la dissipation thermique et le refroidissement du PC",
+      "Ajustement continu de la hauteur et de l inclinaison pour soulager les cervicales"
+    ],
+    "cons": [
+      "Charnières très rigides lors du premier déploiement (gage de maintien du poids)",
+      "Poids d un kilo pensé pour rester sur le bureau plutôt que pour être nomade"
+    ],
+    "features": {
+      "Compatibilité": "PC portables et MacBook de 10 à 17,3 pouces",
+      "Rotation": "Base rotative fluide à 360 degrés",
+      "Matériau": "Alliage d aluminium avec patins silicone anti-rayures",
+      "Refroidissement": "Fentes d aération traversantes sous le châssis",
+      "Stabilité": "Double bras de levage articulé haute friction"
+    },
+    "targetAudience": "Télétravailleurs utilisant un PC portable connecté à un écran externe pour aligner les deux affichages.",
+    "description": "Le support Lamicall 360° surélève votre ordinateur portable jusqu à hauteur des yeux pour éliminer la courbure néfaste du cou. Sa base rotative à 360° permet de partager son écran ou de le repositionner sans déplacer le support.",
+    "verdict": "Le support laptop le plus robuste et pratique pour intégrer un MacBook ou PC portable dans son set-up.",
+    "isFeatured": true,
+    "isTopThree": true,
+    "podiumRank": 3,
+    "award": "Top Support Laptop Rotatif",
     "updatedAt": "2026-11-24"
   }
 ]
