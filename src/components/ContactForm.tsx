@@ -76,7 +76,7 @@ export default function ContactForm({
             <div>
               <p className="font-bold text-[#241b16] text-sm">Une question ou une remarque ?</p>
               <p className="text-xs text-[#75645b]">
-                Écrivez directement à notre atelier : <span className="font-mono text-[#e05238] font-semibold">{defaultEmail}</span>
+                Écrivez directement à notre équipe : <span className="font-mono text-[#e05238] font-semibold">{defaultEmail}</span>
               </p>
             </div>
           </div>

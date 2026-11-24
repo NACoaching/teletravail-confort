@@ -150,10 +150,10 @@ export default function GuideComparisonTable({ products, guideTitle }: GuideComp
                       rel="noopener noreferrer nofollow"
                       data-affiliate-link="true"
                       data-product-name={p.title}
-                      data-site="coin-creatif.com"
+                      data-site="teletravail-confort.com"
                       data-asin={p.amazonAsin || ""}
                       data-position-zone="Tableau Comparatif Guide"
-                      className="inline-flex items-center justify-center gap-1 w-full py-2 px-3 rounded-lg bg-gradient-to-r from-[#e05238] to-[#d64328] hover:from-[#d64328] hover:to-[#be361e] text-white font-bold text-xs shadow-xs hover:shadow transition transform active:scale-95"
+                      className="inline-flex items-center justify-center gap-1 w-full py-2 px-3 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs shadow-xs hover:shadow transition transform active:scale-95"
                     >
                       <span>Voir le prix</span>
                       <ExternalLink className="w-3 h-3" />

@@ -6,7 +6,7 @@ export const dynamic = 'force-static';
 
 export async function GET() {
   let full = `# ${SITE_CONFIG.name} — Base de Connaissances Complète pour Modèles IA (LLM)\n\n`;
-  full += `> Documentation exhaustive des ${products.length} références et ${guides.length} guides d'atelier de ${SITE_CONFIG.domain}.\n\n`;
+  full += `> Documentation exhaustive des ${products.length} références et ${guides.length} guides comparatifs de ${SITE_CONFIG.domain}.\n\n`;
 
   categories.forEach((cat) => {
     full += '===================================================\n';
@@ -19,7 +19,7 @@ export async function GET() {
       full += `- **Marque** : ${p.brand}\n`;
       full += `- **URL Canonique** : ${SITE_CONFIG.domain}/${p.slug}\n`;
       full += `- **Budget indicatif** : ${p.priceIndication}\n`;
-      full += `- **Note atelier** : ${p.rating}/5 (${p.reviewCount} retours d'expérience)\n`;
+      full += `- **Note ergonomie** : ${p.rating}/5 (${p.reviewCount} retours d'expérience)\n`;
       full += `- **Description** : ${p.description}\n\n`;
 
       if (p.pros && p.pros.length > 0) {
@@ -42,7 +42,7 @@ export async function GET() {
   });
 
   full += '===================================================\n';
-  full += "## GUIDES ET COMPARATIFS D'ATELIER DÉTAILLÉS\n";
+  full += "## GUIDES ET COMPARATIFS ERGONOMIE DÉTAILLÉS\n";
   full += '===================================================\n\n';
 
   guides.forEach((g) => {

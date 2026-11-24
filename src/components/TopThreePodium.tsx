@@ -40,7 +40,7 @@ export default function TopThreePodium({ products, categoryName }: TopThreePodiu
   const podium = [
     {
       product: topPick,
-      label: "Choix N°1 de l'Atelier",
+      label: "Choix N°1 de la Rédaction",
       tagline: "Le plus plébiscité & testé",
       icon: Trophy,
       badgeStyle: "bg-amber-100 text-amber-900 border-amber-300",
@@ -58,12 +58,12 @@ export default function TopThreePodium({ products, categoryName }: TopThreePodiu
     },
     {
       product: favoritePick,
-      label: "Coup de Cœur Créatif",
+      label: "Coup de Cœur Ergonomie",
       tagline: "Idéal pour bien débuter",
       icon: Sparkles,
-      badgeStyle: "bg-orange-100 text-[#e05238] border-orange-200",
-      cardBorder: "border-orange-200 bg-white",
-      ribbonBg: "bg-[#e05238] text-white",
+      badgeStyle: "bg-indigo-100 text-indigo-900 border-indigo-200",
+      cardBorder: "border-indigo-200 bg-white",
+      ribbonBg: "bg-indigo-600 text-white",
     },
   ];
 
@@ -72,15 +72,15 @@ export default function TopThreePodium({ products, categoryName }: TopThreePodiu
       {/* Header section */}
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-6">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-[#fff0ea] text-[#e05238] border border-orange-200 mb-2">
-            <Trophy className="w-3.5 h-3.5" />
-            <span>Verdict Rapide d&apos;Atelier</span>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200 mb-2">
+            <Trophy className="w-3.5 h-3.5 text-blue-600" />
+            <span>Verdict Express Ergonomie</span>
           </div>
-          <h2 className="titre text-2xl sm:text-3xl font-bold text-[#241b16]">
+          <h2 className="titre text-2xl sm:text-3xl font-bold text-slate-900">
             Le Top 3 des experts en {categoryName}
           </h2>
-          <p className="text-xs sm:text-sm text-[#75645b] mt-1">
-            Pressé(e) ? Voici les 3 références les plus recommandées selon vos priorités d&apos;atelier.
+          <p className="text-xs sm:text-sm text-slate-600 mt-1">
+            Pressé(e) ? Voici les 3 références les plus recommandées selon vos besoins d&apos;aménagement.
           </p>
         </div>
       </div>
@@ -103,11 +103,11 @@ export default function TopThreePodium({ products, categoryName }: TopThreePodiu
                   <Icon className="w-3.5 h-3.5" />
                   <span>{label}</span>
                 </span>
-                <span className="text-[11px] font-medium text-[#8c786c]">{product.priceIndication}</span>
+                <span className="text-[11px] font-medium text-slate-500">{product.priceIndication}</span>
               </div>
 
               {/* Product Visual */}
-              <Link href={`/${product.slug}`} className="group/img block mb-3 relative aspect-4/3 rounded-2xl overflow-hidden bg-[#faf5ed] border border-[#efe4da]">
+              <Link href={`/${product.slug}`} className="group/img block mb-3 relative aspect-4/3 rounded-2xl overflow-hidden bg-slate-50 border border-slate-200">
                 <Image
                   src={product.imageUrl}
                   alt={product.title}
@@ -120,26 +120,26 @@ export default function TopThreePodium({ products, categoryName }: TopThreePodiu
               {/* Product Details */}
               <div className="flex-1 flex flex-col">
                 <div className="flex items-center gap-2 mb-1.5">
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#e05238]">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-blue-600">
                     {product.brand}
                   </span>
                   <span className="text-gray-300">•</span>
-                  <div className="flex items-center gap-1 text-[11px] text-[#8c786c]">
+                  <div className="flex items-center gap-1 text-[11px] text-slate-500">
                     <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-400" />
-                    <span className="font-bold text-[#241b16]">{product.rating}</span>
+                    <span className="font-bold text-slate-900">{product.rating}</span>
                     <span>({product.reviewCount.toLocaleString("fr-FR")})</span>
                   </div>
                 </div>
 
                 <Link
                   href={`/${product.slug}`}
-                  className="titre font-bold text-base text-[#241b16] hover:text-[#e05238] transition-colors line-clamp-2 mb-2"
+                  className="titre font-bold text-base text-slate-900 hover:text-blue-600 transition-colors line-clamp-2 mb-2"
                 >
                   {product.title}
                 </Link>
 
                 {/* Key Benefit */}
-                <div className="bg-[#faf5ed] rounded-xl p-2.5 text-xs text-[#5c4940] flex items-start gap-2 mb-4 mt-auto border border-[#efe4da]/70">
+                <div className="bg-slate-50 rounded-xl p-2.5 text-xs text-slate-700 flex items-start gap-2 mb-4 mt-auto border border-slate-200/80">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
                   <span className="line-clamp-2 leading-snug">{firstPro}</span>
                 </div>
@@ -154,7 +154,7 @@ export default function TopThreePodium({ products, categoryName }: TopThreePodiu
                   />
                   <Link
                     href={`/${product.slug}`}
-                    className="inline-flex items-center justify-center gap-1 w-full text-[11px] font-semibold text-[#75645b] hover:text-[#e05238] transition-colors py-1"
+                    className="inline-flex items-center justify-center gap-1 w-full text-[11px] font-semibold text-slate-600 hover:text-blue-600 transition-colors py-1"
                   >
                     <span>Lire le test complet & avis</span>
                     <ArrowRight className="w-3 h-3" />

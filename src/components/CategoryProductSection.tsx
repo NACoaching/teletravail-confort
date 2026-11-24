@@ -4,19 +4,12 @@ import React, { useState, useMemo } from "react";
 import {
   Sparkles,
   Layers,
-  Scissors,
-  Palette,
-  Brush,
-  PenTool,
-  Stamp,
-  Shapes,
-  Feather,
-  LayoutGrid,
+  Monitor,
+  Armchair,
+  Sliders,
   CheckCircle2,
   Package,
-  ArrowRight,
-  Filter,
-  BookOpen,
+  LayoutGrid,
 } from "lucide-react";
 import { Product, CategorySubtheme } from "@/lib/types";
 import ProductCard from "@/components/ProductCard";
@@ -35,7 +28,7 @@ export default function CategoryProductSection({
   categoryName,
   products,
   subCategories = [],
-  accentColor = "#e05238",
+  accentColor = "#2563eb",
 }: CategoryProductSectionProps) {
   const [selectedSubCat, setSelectedSubCat] = useState<string>("tous");
 
@@ -46,24 +39,14 @@ export default function CategoryProductSection({
         return <Sparkles className="w-4 h-4" />;
       case "Layers":
         return <Layers className="w-4 h-4" />;
-      case "Scissors":
-        return <Scissors className="w-4 h-4" />;
-      case "Palette":
-        return <Palette className="w-4 h-4" />;
-      case "Brush":
-        return <Brush className="w-4 h-4" />;
-      case "PenTool":
-        return <PenTool className="w-4 h-4" />;
-      case "Stamp":
-        return <Stamp className="w-4 h-4" />;
-      case "Shapes":
-        return <Shapes className="w-4 h-4" />;
-      case "Feather":
-        return <Feather className="w-4 h-4" />;
-      case "BookOpen":
-        return <BookOpen className="w-4 h-4" />;
+      case "Monitor":
+        return <Monitor className="w-4 h-4" />;
+      case "Armchair":
+        return <Armchair className="w-4 h-4" />;
+      case "Sliders":
+        return <Sliders className="w-4 h-4" />;
       default:
-        return <Package className="w-4 h-4" />;
+        return <Layers className="w-4 h-4" />;
     }
   };
 
@@ -101,18 +84,13 @@ export default function CategoryProductSection({
     return navTabs.find((t) => t.id === selectedSubCat);
   }, [navTabs, selectedSubCat]);
 
-  // Grouped products when viewing "tous" and subCategories exist
-  const groupedSubCategories = useMemo(() => {
-    return navTabs.filter((t) => t.id !== "tous");
-  }, [navTabs]);
-
   return (
     <section className="space-y-6" id="produits">
       {/* INTEGRATED TABS & FILTER BAR - COMPACT & HIGH IMPACT */}
       {navTabs.length > 1 && (
         <div className="space-y-3">
           {/* Main Pill Tabs Bar */}
-          <div className="bg-white/95 backdrop-blur-xs rounded-2xl sm:rounded-full border-2 border-[#eadfd3] p-1.5 shadow-xs overflow-x-auto scrollbar-none flex items-center justify-between gap-1 sm:gap-2">
+          <div className="bg-white/95 backdrop-blur-xs rounded-2xl sm:rounded-full border-2 border-slate-200 p-1.5 shadow-xs overflow-x-auto scrollbar-none flex items-center justify-between gap-1 sm:gap-2">
             <div className="flex items-center gap-1 sm:gap-2">
               {navTabs.map((tab) => {
                 const isActive = selectedSubCat === tab.id;
@@ -125,12 +103,12 @@ export default function CategoryProductSection({
                     onClick={() => setSelectedSubCat(tab.id)}
                     className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-bold transition-all duration-200 whitespace-nowrap cursor-pointer ${
                       isActive
-                        ? "bg-[#e05238] text-white shadow-xs"
-                        : "text-[#5a493e] hover:text-[#241b16] hover:bg-orange-50/80"
+                        ? "bg-blue-600 text-white shadow-xs"
+                        : "text-slate-600 hover:text-slate-900 hover:bg-blue-50/80"
                     }`}
                     aria-pressed={isActive}
                   >
-                    <span className={isActive ? "text-white" : "text-[#e05238]"}>
+                    <span className={isActive ? "text-white" : "text-blue-600"}>
                       {tab.id === "tous" ? (
                         <LayoutGrid className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                       ) : (
@@ -142,7 +120,7 @@ export default function CategoryProductSection({
                       className={`text-[10px] sm:text-[11px] px-1.5 sm:px-2 py-0.5 rounded-full font-black ${
                         isActive
                           ? "bg-white/25 text-white"
-                          : "bg-[#f4ebe1] text-[#5a493e]"
+                          : "bg-slate-100 text-slate-600"
                       }`}
                     >
                       {count}
@@ -153,23 +131,23 @@ export default function CategoryProductSection({
             </div>
 
             {/* Quick count badge on desktop */}
-            <div className="hidden lg:flex items-center gap-1.5 pr-3 text-xs text-[#8c786c] font-semibold">
+            <div className="hidden lg:flex items-center gap-1.5 pr-3 text-xs text-slate-500 font-semibold">
               <span>{products.length} articles testés</span>
             </div>
           </div>
 
           {/* COMPACT ACTIVE SUB-THEME STRIP (WHEN A SPECIFIC TAB IS CHOSEN) */}
           {selectedSubCat !== "tous" && activeSubInfo && (
-            <div className="rounded-xl bg-orange-50/70 border border-orange-200/80 px-4 py-2.5 flex items-center justify-between gap-3 text-xs">
-              <div className="flex items-center gap-2 text-[#5a493e]">
-                <span className="font-bold text-[#241b16] flex items-center gap-1.5">
+            <div className="rounded-xl bg-blue-50/70 border border-blue-200/80 px-4 py-2.5 flex items-center justify-between gap-3 text-xs">
+              <div className="flex items-center gap-2 text-slate-700">
+                <span className="font-bold text-slate-900 flex items-center gap-1.5">
                   {getSubIcon(activeSubInfo.icon)}
                   <span>{activeSubInfo.label} :</span>
                 </span>
                 <span className="hidden sm:inline">
                   {activeSubInfo.description}
                 </span>
-                <span className="text-[#8c786c]">
+                <span className="text-slate-500">
                   ({filteredProducts.length} référence{filteredProducts.length > 1 ? "s" : ""})
                 </span>
               </div>
@@ -177,7 +155,7 @@ export default function CategoryProductSection({
               <button
                 type="button"
                 onClick={() => setSelectedSubCat("tous")}
-                className="text-xs font-bold text-[#e05238] hover:underline shrink-0 cursor-pointer"
+                className="text-xs font-bold text-blue-600 hover:underline shrink-0 cursor-pointer"
               >
                 Tout réafficher
               </button>
@@ -198,11 +176,11 @@ export default function CategoryProductSection({
           ))}
         </div>
       ) : (
-        <div className="p-12 text-center bg-white rounded-[2rem] border-2 border-[#eadfd3] text-[#5a493e] text-sm">
-          <p className="font-bold text-[#241b16] mb-1">
+        <div className="p-12 text-center bg-white rounded-[2rem] border-2 border-slate-200 text-slate-600 text-sm">
+          <p className="font-bold text-slate-900 mb-1">
             Aucun article dans cette sélection pour le moment.
           </p>
-          <p className="text-xs text-[#8c786c]">
+          <p className="text-xs text-slate-500">
             Sélectionnez « Tout afficher » pour voir tous les produits du rayon.
           </p>
         </div>

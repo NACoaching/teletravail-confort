@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(slug);
   if (!product) return {};
 
-  const cleanDesc = `${product.title} (${product.brand}) : découvrez notre test d'atelier, points forts, caractéristiques et prix (${product.priceIndication}). Noté ${product.rating}/5 par ${product.reviewCount} avis créatifs.`;
+  const cleanDesc = `${product.title} (${product.brand}) : découvrez notre test complet, points forts, caractéristiques et prix (${product.priceIndication}). Noté ${product.rating}/5 par ${product.reviewCount} avis utilisateurs.`;
 
   return {
     title: `${product.title} : Avis, Test & Prix 2026 | ${SITE_CONFIG.name}`,
@@ -47,13 +47,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `${product.title} prix`,
       `${product.brand}`,
       product.categorySlug,
-      "matériel créatif atelier 2026",
+      "matériel télétravail bureau ergonomie 2026",
     ],
     alternates: {
       canonical: `${SITE_CONFIG.domain}/${product.slug}`,
     },
     openGraph: {
-      title: `${product.title} : Avis & Test d'Atelier | ${SITE_CONFIG.name}`,
+      title: `${product.title} : Avis Avis Avis Avis & Test d'Atelier Test Ergonomie Test Ergonomie Test Ergonomie | ${SITE_CONFIG.name}`,
       description: cleanDesc,
       url: `${SITE_CONFIG.domain}/${product.slug}`,
       siteName: SITE_CONFIG.name,
@@ -224,7 +224,7 @@ export default async function ProductDetailPage({ params }: Props) {
   // High-Intent Product Q&A (FAQPage Schema & UX)
   const productFaqs = [
     {
-      question: `Quel est l'avis d'atelier de l'équipe sur ${product.title} ?`,
+      question: `Quel est l'avis de l'équipe sur ${product.title} ?`,
       answer: product.verdict,
     },
     {
@@ -255,14 +255,14 @@ export default async function ProductDetailPage({ params }: Props) {
 
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-xs text-[#75645b]">
-        <Link href="/" className="hover:text-[#e05d44] flex items-center gap-1">
+        <Link href="/" className="hover:text-blue-600 flex items-center gap-1">
           <ArrowLeft className="w-3.5 h-3.5" />
           <span>Accueil</span>
         </Link>
         <span>/</span>
         <Link
           href={`/categorie/${product.categorySlug}`}
-          className="hover:text-[#e05d44] font-medium"
+          className="hover:text-blue-600 font-medium"
         >
           {categoryName}
         </Link>
@@ -297,7 +297,7 @@ export default async function ProductDetailPage({ params }: Props) {
         <div className="space-y-5 flex flex-col justify-between h-full">
           <div>
             <div className="flex items-center justify-between text-xs text-[#75645b] mb-2">
-              <span className="font-bold text-[#e05d44] tracking-wider uppercase">
+              <span className="font-bold text-blue-600 tracking-wider uppercase">
                 {product.brand}
               </span>
               <div className="flex items-center gap-1 text-[#d97706] font-semibold">
@@ -383,17 +383,17 @@ export default async function ProductDetailPage({ params }: Props) {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 p-5 rounded-3xl bg-[#faf5ed] border-2 border-[#eadfd3]">
         <div className="text-center p-3 rounded-2xl bg-white border border-[#eadfd3]">
           <div className="text-[10px] font-bold uppercase text-[#8c786c]">Prise en Main</div>
-          <div className="titre text-lg font-bold text-[#e05238]">9.6 / 10</div>
+          <div className="titre text-lg font-bold text-blue-600">9.6 / 10</div>
           <div className="text-[10px] text-[#5a493e]">Ergonomie réelle</div>
         </div>
         <div className="text-center p-3 rounded-2xl bg-white border border-[#eadfd3]">
           <div className="text-[10px] font-bold uppercase text-[#8c786c]">Matériaux</div>
-          <div className="titre text-lg font-bold text-[#e05238]">9.4 / 10</div>
+          <div className="titre text-lg font-bold text-blue-600">9.4 / 10</div>
           <div className="text-[10px] text-[#5a493e]">Solidité & tenue</div>
         </div>
         <div className="text-center p-3 rounded-2xl bg-white border border-[#eadfd3]">
           <div className="text-[10px] font-bold uppercase text-[#8c786c]">Utilité / Prix</div>
-          <div className="titre text-lg font-bold text-[#e05238]">9.8 / 10</div>
+          <div className="titre text-lg font-bold text-blue-600">9.8 / 10</div>
           <div className="text-[10px] text-[#5a493e]">Rentabilité usage</div>
         </div>
         <div className="text-center p-3 rounded-2xl bg-white border border-[#eadfd3]">
@@ -438,9 +438,9 @@ export default async function ProductDetailPage({ params }: Props) {
 
         {/* Target Audience */}
         <div className="p-5 rounded-[1.75rem] bg-[#fde9df] border border-[#fad8c7]">
-          <div className="flex items-center gap-2 font-bold text-xs uppercase tracking-wider text-[#e05d44] mb-1">
+          <div className="flex items-center gap-2 font-bold text-xs uppercase tracking-wider text-blue-600 mb-1">
             <HeartHandshake className="w-4 h-4" />
-            <span>Pour quel profil d&apos;atelier ?</span>
+            <span>Pour quel profil d'utilisateur ?</span>
           </div>
           <p className="text-xs sm:text-sm text-[#3d2f2a]">
             {product.targetAudience}
@@ -457,7 +457,7 @@ export default async function ProductDetailPage({ params }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-6 rounded-[2rem] bg-[#f8f1ea] border border-[#efe4da]">
             <div>
-              <div className="text-xs text-[#9c8a80]">Équiper son atelier :</div>
+              <div className="text-xs text-[#9c8a80]">S'équiper en télétravail :</div>
               <div className="titre text-base font-bold text-[#3d2f2a]">
                 Consulter les tarifs et les stocks sur Amazon
               </div>
@@ -471,9 +471,9 @@ export default async function ProductDetailPage({ params }: Props) {
       {relatedGuides.length > 0 && (
         <aside className="p-6 rounded-[2rem] bg-gradient-to-r from-amber-50 via-orange-50 to-white border-2 border-amber-300 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
           <div className="space-y-1 text-center sm:text-left">
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#e05238]">
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-blue-600">
               <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-              <span>Dossier d&apos;Atelier Recommandé</span>
+              <span>Guide Comparatif Recommandé</span>
             </div>
             <h4 className="titre font-bold text-base sm:text-lg text-[#241b16]">
               {relatedGuides[0].title}
@@ -484,7 +484,7 @@ export default async function ProductDetailPage({ params }: Props) {
           </div>
           <Link
             href={`/guides/${relatedGuides[0].slug}`}
-            className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-[#e05238] text-white text-xs font-bold hover:bg-[#c9452d] transition-colors shadow-xs shrink-0"
+            className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-blue-600 text-white text-xs font-bold hover:bg-blue-700 transition-colors shadow-xs shrink-0"
           >
             <span>Lire le guide complet</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -497,14 +497,14 @@ export default async function ProductDetailPage({ params }: Props) {
         <section className="pt-6 border-t border-[#efe4da] space-y-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <BookOpen className="w-5 h-5 text-[#e05d44]" />
+              <BookOpen className="w-5 h-5 text-blue-600" />
               <h2 className="titre text-xl sm:text-2xl font-bold text-[#3d2f2a]">
                 Guides & Tutoriels Associés
               </h2>
             </div>
             <Link
               href="/guides"
-              className="text-xs font-bold text-[#e05d44] hover:underline flex items-center gap-1"
+              className="text-xs font-bold text-blue-600 hover:underline flex items-center gap-1"
             >
               <span>Tous les guides</span>
               <ArrowRight className="w-3.5 h-3.5" />
@@ -515,13 +515,13 @@ export default async function ProductDetailPage({ params }: Props) {
             {relatedGuides.slice(0, 2).map((guide) => (
               <article
                 key={guide.id}
-                className="p-5 rounded-[1.75rem] bg-white border border-[#efe4da] hover:border-[#e05d44] transition-all flex flex-col justify-between group"
+                className="p-5 rounded-[1.75rem] bg-white border border-[#efe4da] hover:border-blue-400 transition-all flex flex-col justify-between group"
               >
                 <div>
-                  <span className="text-[11px] font-semibold text-[#e05d44] uppercase tracking-wider block mb-1">
-                    Dossier d&apos;Atelier
+                  <span className="text-[11px] font-semibold text-blue-600 uppercase tracking-wider block mb-1">
+                    Guide Comparatif
                   </span>
-                  <h3 className="titre font-bold text-base text-[#3d2f2a] group-hover:text-[#e05d44] transition-colors leading-snug mb-2">
+                  <h3 className="titre font-bold text-base text-[#3d2f2a] group-hover:text-blue-600 transition-colors leading-snug mb-2">
                     <Link href={`/guides/${guide.slug}`}>{guide.title}</Link>
                   </h3>
                   <p className="text-xs text-[#75645b] line-clamp-2 leading-relaxed">
@@ -532,7 +532,7 @@ export default async function ProductDetailPage({ params }: Props) {
                   <span className="text-[#9c8a80]">Lecture {guide.readingTime}</span>
                   <Link
                     href={`/guides/${guide.slug}`}
-                    className="font-bold text-[#e05d44] flex items-center gap-1 group-hover:translate-x-0.5 transition-transform"
+                    className="font-bold text-blue-600 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform"
                   >
                     <span>Lire le guide</span>
                     <ArrowRight className="w-3 h-3" />
@@ -549,14 +549,14 @@ export default async function ProductDetailPage({ params }: Props) {
         <section className="pt-6 border-t border-[#efe4da] space-y-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <Sparkles className="w-5 h-5 text-[#e05d44]" />
+              <Sparkles className="w-5 h-5 text-blue-600" />
               <h2 className="titre text-xl sm:text-2xl font-bold text-[#3d2f2a]">
                 Matériel Complémentaire Recommandé
               </h2>
             </div>
             <Link
               href={`/categorie/${product.categorySlug}`}
-              className="text-xs font-bold text-[#e05d44] hover:underline flex items-center gap-1"
+              className="text-xs font-bold text-blue-600 hover:underline flex items-center gap-1"
             >
               <span>Voir tout le rayon</span>
               <ArrowRight className="w-3.5 h-3.5" />

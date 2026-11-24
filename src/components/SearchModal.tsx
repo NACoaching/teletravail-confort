@@ -68,14 +68,14 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
   }, [query]);
 
   const quickPills = [
-    "Stickers",
-    "Washi tape",
-    "Papier 30x30",
-    "Aquarelle",
-    "Feutres à alcool",
-    "Argile sans cuisson",
-    "Gouges",
-    "Sizzix",
+    "Bureau assis-debout",
+    "Chaise ergonomique",
+    "Soutien lombaire",
+    "Flexispot",
+    "Sihoo",
+    "Bras double écran",
+    "Lampe screenbar",
+    "Repose-pieds",
   ];
 
   if (!isOpen) return null;
@@ -86,35 +86,35 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
       <div className="fixed inset-0" onClick={onClose} aria-hidden="true" />
 
       {/* Modal Container */}
-      <div className="relative w-full max-w-2xl bg-white rounded-3xl border-2 border-[#eadfd3] shadow-2xl overflow-hidden z-10 flex flex-col max-h-[80vh]">
+      <div className="relative w-full max-w-2xl bg-white rounded-3xl border-2 border-slate-200 shadow-2xl overflow-hidden z-10 flex flex-col max-h-[80vh]">
         {/* Search Header Input */}
-        <div className="p-4 sm:p-5 border-b border-[#eadfd3] flex items-center gap-3 bg-[#faf5ed]">
-          <Search className="w-5 h-5 text-[#e05238] shrink-0" />
+        <div className="p-4 sm:p-5 border-b border-slate-200 flex items-center gap-3 bg-slate-50">
+          <Search className="w-5 h-5 text-blue-600 shrink-0" />
           <input
             ref={inputRef}
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Rechercher du matériel, un papier, une marque (ex: stickers, Cotman, Cricut...)"
-            className="w-full bg-transparent text-sm sm:text-base font-semibold text-[#241b16] placeholder-[#8c786c] outline-hidden"
+            placeholder="Rechercher un équipement, une marque (ex: Flexispot, Sihoo, écran...)"
+            className="w-full bg-transparent text-sm sm:text-base font-semibold text-slate-900 placeholder-slate-400 outline-hidden"
           />
           {query ? (
             <button
               type="button"
               onClick={() => setQuery("")}
-              className="p-1 rounded-full hover:bg-white text-[#8c786c] hover:text-[#241b16]"
+              className="p-1 rounded-full hover:bg-white text-slate-400 hover:text-slate-700"
             >
               <X className="w-4 h-4" />
             </button>
           ) : (
-            <kbd className="hidden sm:inline-block px-2 py-0.5 text-[10px] font-bold text-[#8c786c] bg-white border border-[#eadfd3] rounded-md shadow-2xs">
+            <kbd className="hidden sm:inline-block px-2 py-0.5 text-[10px] font-bold text-slate-500 bg-white border border-slate-200 rounded-md shadow-2xs">
               ESC
             </kbd>
           )}
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 rounded-full hover:bg-orange-100 text-[#5a493e] hover:text-[#e05238] transition-colors"
+            className="p-1.5 rounded-full hover:bg-slate-200 text-slate-600 hover:text-slate-900 transition-colors"
             aria-label="Fermer"
           >
             <X className="w-5 h-5" />
@@ -126,9 +126,9 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
           {/* Default Suggestions when input is empty */}
           {!query && (
             <div className="space-y-4">
-              <div className="flex items-center gap-2 text-xs font-bold text-[#8c786c] uppercase tracking-wider">
-                <Sparkles className="w-3.5 h-3.5 text-[#e05238]" />
-                <span>Recherches populaires en atelier :</span>
+              <div className="flex items-center gap-2 text-xs font-bold text-slate-500 uppercase tracking-wider">
+                <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+                <span>Recherches fréquentes :</span>
               </div>
               <div className="flex flex-wrap gap-2">
                 {quickPills.map((pill) => (
@@ -136,16 +136,16 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                     key={pill}
                     type="button"
                     onClick={() => setQuery(pill)}
-                    className="px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#faf5ed] border border-[#eadfd3] text-[#241b16] hover:bg-[#e05238] hover:text-white hover:border-[#e05238] transition-all cursor-pointer"
+                    className="px-3.5 py-1.5 rounded-full text-xs font-bold bg-slate-100 border border-slate-200 text-slate-800 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all cursor-pointer"
                   >
                     {pill}
                   </button>
                 ))}
               </div>
 
-              <div className="pt-4 border-t border-[#eadfd3]">
-                <p className="text-xs text-[#8c786c]">
-                  42 références d&apos;atelier et 6 rayons créatifs disponibles.
+              <div className="pt-4 border-t border-slate-200">
+                <p className="text-xs text-slate-500">
+                  Sélections ergonomiques vérifiées et guides comparatifs disponibles.
                 </p>
               </div>
             </div>
@@ -157,8 +157,8 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
               {/* Matching Categories */}
               {matchingCategories.length > 0 && (
                 <div className="space-y-2">
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#8c786c]">
-                    Rayon créatif correspondant :
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500">
+                    Catégorie d&apos;équipement :
                   </span>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {matchingCategories.map((c) => (
@@ -166,13 +166,13 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         key={c.id}
                         href={`/categorie/${c.slug}`}
                         onClick={onClose}
-                        className="p-3 rounded-2xl bg-orange-50/60 border border-orange-200/80 flex items-center justify-between text-xs font-bold text-[#241b16] hover:bg-orange-100 transition-colors"
+                        className="p-3 rounded-2xl bg-blue-50/60 border border-blue-200/80 flex items-center justify-between text-xs font-bold text-slate-900 hover:bg-blue-100 transition-colors"
                       >
                         <div className="flex items-center gap-2">
-                          <Tag className="w-3.5 h-3.5 text-[#e05238]" />
+                          <Tag className="w-3.5 h-3.5 text-blue-600" />
                           <span>{c.name}</span>
                         </div>
-                        <ArrowRight className="w-3.5 h-3.5 text-[#e05238]" />
+                        <ArrowRight className="w-3.5 h-3.5 text-blue-600" />
                       </Link>
                     ))}
                   </div>
@@ -182,7 +182,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
               {/* Matching Products */}
               {filteredProducts.length > 0 ? (
                 <div className="space-y-2">
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#8c786c]">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500">
                     Produits ({filteredProducts.length}) :
                   </span>
                   <div className="space-y-2">
@@ -191,10 +191,10 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         key={p.id}
                         href={`/${p.slug}`}
                         onClick={onClose}
-                        className="flex items-center justify-between gap-3 p-2.5 sm:p-3 rounded-2xl hover:bg-[#faf5ed] border border-transparent hover:border-[#eadfd3] transition-all group"
+                        className="flex items-center justify-between gap-3 p-2.5 sm:p-3 rounded-2xl hover:bg-slate-50 border border-transparent hover:border-slate-200 transition-all group"
                       >
                         <div className="flex items-center gap-3 min-w-0">
-                          <div className="relative w-12 h-12 rounded-xl overflow-hidden bg-white border border-[#eadfd3] shrink-0">
+                          <div className="relative w-12 h-12 rounded-xl overflow-hidden bg-white border border-slate-200 shrink-0">
                             <Image
                               src={p.imageUrl}
                               alt={p.title}
@@ -205,29 +205,29 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                           </div>
                           <div className="min-w-0">
                             <div className="flex items-center gap-2">
-                              <span className="text-[10px] font-black uppercase text-[#e05238] tracking-wider">
+                              <span className="text-[10px] font-black uppercase text-blue-600 tracking-wider">
                                 {p.brand}
                               </span>
                               {p.subCategoryLabel && (
-                                <span className="text-[10px] px-2 py-0.2 rounded-full bg-[#f4ebe1] text-[#5a493e] hidden sm:inline">
+                                <span className="text-[10px] px-2 py-0.2 rounded-full bg-slate-100 text-slate-700 hidden sm:inline">
                                   {p.subCategoryLabel}
                                 </span>
                               )}
                             </div>
-                            <h4 className="titre font-bold text-xs sm:text-sm text-[#241b16] truncate group-hover:text-[#e05238] transition-colors">
+                            <h4 className="titre font-bold text-xs sm:text-sm text-slate-900 truncate group-hover:text-blue-600 transition-colors">
                               {p.title}
                             </h4>
-                            <p className="text-[11px] text-[#5a493e] line-clamp-1">
+                            <p className="text-[11px] text-slate-500 line-clamp-1">
                               {p.tagline}
                             </p>
                           </div>
                         </div>
 
                         <div className="text-right shrink-0">
-                          <span className="text-xs font-bold text-[#241b16] block">
+                          <span className="text-xs font-bold text-slate-900 block">
                             {p.priceIndication}
                           </span>
-                          <span className="text-[10px] font-semibold text-[#e05238] group-hover:underline flex items-center justify-end gap-0.5">
+                          <span className="text-[10px] font-semibold text-blue-600 group-hover:underline flex items-center justify-end gap-0.5">
                             <span>Voir le test</span>
                             <ArrowRight className="w-3 h-3" />
                           </span>
@@ -238,12 +238,12 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                 </div>
               ) : (
                 matchingCategories.length === 0 && (
-                  <div className="py-8 text-center text-[#5a493e] space-y-2">
+                  <div className="py-8 text-center text-slate-600 space-y-2">
                     <p className="text-sm font-semibold">
                       Aucun article trouvé pour &quot;{query}&quot;.
                     </p>
-                    <p className="text-xs text-[#8c786c]">
-                      Essayez un terme plus général comme &quot;stickers&quot;, &quot;argile&quot;, &quot;papier&quot; ou &quot;feutres&quot;.
+                    <p className="text-xs text-slate-400">
+                      Essayez un terme plus général comme &quot;bureau&quot;, &quot;chaise&quot;, &quot;support&quot; ou &quot;ergonomie&quot;.
                     </p>
                   </div>
                 )
