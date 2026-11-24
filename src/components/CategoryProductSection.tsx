@@ -34,13 +34,22 @@ export default function CategoryProductSection({
 
   // Sync with URL query parameter ?sub=...
   React.useEffect(() => {
-    if (typeof window !== "undefined") {
+    const handleUrlSub = () => {
+      if (typeof window === "undefined") return;
       const params = new URLSearchParams(window.location.search);
       const sub = params.get("sub");
       if (sub && subCategories.some((s) => s.id === sub)) {
-        setSelectedSubCat(sub);
+        setSelectedSubCat((current) => (current !== sub ? sub : current));
       }
-    }
+    };
+
+    handleUrlSub();
+    window.addEventListener("popstate", handleUrlSub);
+    const interval = setInterval(handleUrlSub, 250);
+    return () => {
+      window.removeEventListener("popstate", handleUrlSub);
+      clearInterval(interval);
+    };
   }, [subCategories]);
 
   // Map subCategory icons

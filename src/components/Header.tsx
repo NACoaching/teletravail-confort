@@ -151,15 +151,15 @@ export default function Header() {
   ];
 
   const quickTrends = [
-    { label: "Tapis de Marche", href: "/categorie/accessoires-ergonomie?sub=tapis-marche-mobilite", icon: Footprints, badge: "Hit" },
-    { label: "Claviers Ergo", href: "/categorie/accessoires-ergonomie?sub=claviers-ergonomiques", icon: Keyboard },
-    { label: "Souris Verticales", href: "/categorie/accessoires-ergonomie?sub=souris-ergonomiques", icon: Mouse },
-    { label: "Repose-Pieds & Coccyx", href: "/categorie/accessoires-ergonomie?sub=repose-pieds-tapis", icon: Sparkles },
-    { label: "Cable Management", href: "/categorie/accessoires-ergonomie?sub=cable-management-hubs", icon: Cable },
-    { label: "Webcams & Visio", href: "/categorie/accessoires-ergonomie?sub=audio-video-visio", icon: Video },
-    { label: "Casques Anti-Bruit", href: "/categorie/accessoires-ergonomie?sub=audio-video-visio", icon: Headphones },
-    { label: "Sièges Assis-Genoux", href: "/categorie/chaises-ergonomiques?sub=sieges-assis-genoux", icon: Armchair },
-    { label: "Bureaux Motorisés", href: "/categorie/bureaux-assis-debout?sub=electriques-motorises", icon: Monitor },
+    { label: "Tapis de Marche", href: "/guides/tapis-de-marche-sous-bureau-assis-debout-avis-comparatif", icon: Footprints, badge: "Guide" },
+    { label: "Claviers Ergo", href: "/guides/clavier-souris-ergonomiques-anti-tms-canal-carpien", icon: Keyboard, badge: "Guide" },
+    { label: "Souris Verticales", href: "/guides/clavier-souris-ergonomiques-anti-tms-canal-carpien", icon: Mouse, badge: "Guide" },
+    { label: "Repose-Pieds & Coccyx", href: "/guides/soulager-mal-de-dos-teletravail-sans-changer-chaise-coussins-repose-pieds", icon: Sparkles, badge: "Guide" },
+    { label: "Cable Management", href: "/guides/cable-management-bureau-assis-debout-guide-organisation-cables", icon: Cable, badge: "Guide" },
+    { label: "Webcams & Visio", href: "/guides/materiel-visioconference-teletravail-webcam-casque-micro-anti-bruit", icon: Video, badge: "Guide" },
+    { label: "Casques Anti-Bruit", href: "/guides/materiel-visioconference-teletravail-webcam-casque-micro-anti-bruit", icon: Headphones, badge: "Guide" },
+    { label: "Sièges Assis-Genoux", href: "/guides/soulager-mal-de-dos-teletravail-sans-changer-chaise-coussins-repose-pieds", icon: Armchair, badge: "Guide" },
+    { label: "Bureaux Motorisés", href: "/guides/meilleur-bureau-assis-debout-electrique-comparatif-avis", icon: Monitor, badge: "Guide" },
   ];
 
   return (
@@ -236,7 +236,7 @@ export default function Header() {
                         {r.subCategories.map((sub) => (
                           <Link
                             key={sub.id}
-                            href={`/categorie/${r.slug}?sub=${sub.id}`}
+                            href={`/categorie/${r.slug}?sub=${sub.id}#produits`}
                             className="flex items-start justify-between p-2 rounded-xl hover:bg-blue-50/70 transition-colors group"
                           >
                             <div className="space-y-0.5">
@@ -325,9 +325,9 @@ export default function Header() {
       {/* Quick Trending Subnav Bar: Direct Access to High Intent Items */}
       <div className="bg-slate-50/90 border-t border-slate-200/80 overflow-x-auto scrollbar-none py-1.5 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto flex items-center gap-2 text-[11px] whitespace-nowrap">
-          <span className="flex items-center gap-1 font-bold text-amber-600 shrink-0 pr-1 border-r border-slate-200">
+          <span className="flex items-center gap-1 font-bold text-blue-700 shrink-0 pr-1 border-r border-slate-200">
             <Flame className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
-            <span>Tendances :</span>
+            <span>Guides &amp; Sélections :</span>
           </span>
           <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5">
             {quickTrends.map((trend) => {
@@ -341,7 +341,7 @@ export default function Header() {
                   <Icon className="w-3 h-3 text-slate-400" />
                   <span>{trend.label}</span>
                   {trend.badge && (
-                    <span className="text-[8px] font-extrabold uppercase px-1 rounded-sm bg-amber-500 text-white leading-none py-0.5">
+                    <span className="text-[8px] font-extrabold uppercase px-1 rounded-sm bg-blue-600 text-white leading-none py-0.5">
                       {trend.badge}
                     </span>
                   )}
@@ -389,7 +389,7 @@ export default function Header() {
                       {r.subCategories.map((sub) => (
                         <Link
                           key={sub.id}
-                          href={`/categorie/${r.slug}?sub=${sub.id}`}
+                          href={`/categorie/${r.slug}?sub=${sub.id}#produits`}
                           onClick={() => setMobileMenuOpen(false)}
                           className="flex items-center justify-between px-2.5 py-1.5 rounded-lg text-xs text-slate-700 hover:bg-slate-50"
                         >
