@@ -198,46 +198,6 @@
     "updatedAt": "2026-11-24"
   },
   {
-    "id": "xiaomi-mi-computer-monitor-light-bar-1s-screenbar",
-    "slug": "xiaomi-mi-computer-monitor-light-bar-1s-screenbar",
-    "title": "Xiaomi Mi Monitor Light Bar 1S : Lampe de Moniteur Anti-Reflets avec Télécommande Sans Fil",
-    "brand": "Xiaomi",
-    "categorySlug": "accessoires-ergonomie",
-    "subCategory": "lampes-screenbar",
-    "subCategoryLabel": "Lampes d'Écran (Screenbar)",
-    "priceIndication": "45 € - 59 €",
-    "rating": 4.7,
-    "reviewCount": 8900,
-    "badge": "Coup de Cœur Confort Visuel",
-    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
-    "affiliateUrl": "https://www.amazon.fr/dp/B08W58K8W9?tag=teletravailconfort-21",
-    "pros": [
-      "Éclairage asymétrique dirigé sur le bureau : zéro reflet sur la dalle d'écran",
-      "Molette sans fil 2.4 GHz pour régler l'intensité et la température de couleur",
-      "Fixation magnétique rapide et corps en métal sobre et élégant",
-      "Alimentation simple par câble USB-C branché au PC ou à l'écran"
-    ],
-    "cons": [
-      "Non compatible avec certains écrans ultra-courbés à coque bombée",
-      "Piles AAA de la télécommande à prévoir"
-    ],
-    "features": {
-      "Optique": "Faisceau asymétrique 25° anti-éblouissement",
-      "Température de couleur": "2700K (chaud) à 6500K (blanc froid)",
-      "Indice de rendu des couleurs": "Ra95 (couleurs naturelles)",
-      "Contrôle": "Molette rotative sans fil 2.4 GHz",
-      "Alimentation": "USB Type-C (5V / 1A)"
-    },
-    "targetAudience": "Télétravailleurs nocturnes ou travaillant dans une pièce sombre souhaitant protéger leur vue.",
-    "description": "La lampe screenbar Xiaomi est la solution idéale pour travailler confortablement le soir ou en hiver sans fatiguer ses yeux. Contrairement à une lampe de bureau classique qui crée des reflets sur l'écran, son faisceau asymétrique n'éclaire que votre clavier et vos documents.",
-    "verdict": "Le meilleur rapport qualité/prix du marché pour protéger ses yeux et épurer son bureau.",
-    "isFeatured": true,
-    "isTopThree": true,
-    "podiumRank": 1,
-    "award": "Coup de Cœur Confort Visuel",
-    "updatedAt": "2026-11-24"
-  },
-  {
     "id": "sihoo-m57-chaise-ergonomique-bureau-maille-mesh",
     "slug": "sihoo-m57-chaise-ergonomique-bureau-maille-mesh",
     "title": "Sihoo M57 : Chaise de Bureau Ergonomique Respirante en Maille Mesh 3D",
@@ -592,6 +552,165 @@
     "isTopThree": true,
     "podiumRank": 3,
     "award": "Top Support Laptop Rotatif",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "benq-screenbar-lampe-moniteur-anti-reflet",
+    "slug": "benq-screenbar-lampe-moniteur-anti-reflet",
+    "title": "BenQ ScreenBar : Lampe de Moniteur Écran avec Variation Auto et Capteur Anti-Reflet",
+    "brand": "BenQ",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "lampes-screenbar",
+    "subCategoryLabel": "Lampes d Écran (Screenbar)",
+    "priceIndication": "79 € - 99 €",
+    "rating": 4.8,
+    "reviewCount": 4515,
+    "badge": "Choix de la Rédaction",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B06UjcY0U",
+    "pros": [
+      "Système optique asymétrique breveté : zéro reflet sur la dalle et zéro éblouissement",
+      "Capteur de luminosité ambiante intégré ajustant automatiquement l intensité à 500 Lux",
+      "Pince de contrepoids brevetée s adaptant à tout écran plat sans adhésif ni vis",
+      "Température de couleur réglable de 2700K (chaleureux) à 6500K (lumière du jour)"
+    ],
+    "cons": [
+      "Tarif premium justifié par la précision du capteur et l optique brevetée",
+      "Commandes tactiles situées sur le dessus de la barre"
+    ],
+    "features": {
+      "Optique": "Faisceau asymétrique breveté anti-reflet",
+      "Capteur": "Détection automatique de la lumière ambiante (500 Lux)",
+      "Alimentation": "Câble USB universel (se branche sur PC ou moniteur)",
+      "Température": "8 nuances de couleur (2700K à 6500K)",
+      "Compatibilité": "Écrans d une épaisseur de 1 à 3 cm"
+    },
+    "targetAudience": "Professionnels exigeants travaillant de longues heures sur écran et cherchant le confort visuel absolu.",
+    "description": "Considérée comme la pionnière et la reine incontournable des lampes d écran, la BenQ ScreenBar éclaire précisément votre espace de travail sans jamais toucher la vitre de votre moniteur. Son capteur intelligent équilibre la lumière en temps réel pour reposer vos yeux.",
+    "verdict": "La référence ultime du confort visuel pour travailler de jour comme de nuit sans fatigue oculaire.",
+    "isFeatured": true,
+    "isTopThree": true,
+    "podiumRank": 1,
+    "award": "Choix de la Rédaction",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "quntis-lampe-ecran-pc-telecommande-auto-dimming",
+    "slug": "quntis-lampe-ecran-pc-telecommande-auto-dimming",
+    "title": "Quntis : Lampe de Moniteur avec Télécommande et Gradation Automatique (41 cm)",
+    "brand": "Quntis",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "lampes-screenbar",
+    "subCategoryLabel": "Lampes d Écran (Screenbar)",
+    "priceIndication": "39 € - 55 €",
+    "rating": 4.6,
+    "reviewCount": 19118,
+    "badge": "Choix d Amazon",
+    "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B02yQRXkL",
+    "pros": [
+      "Télécommande sans fil ronde pratique pour contrôler la lumière du bout des doigts",
+      "78 LEDs haute puissance offrant jusqu à 900 Lux avec gradation automatique",
+      "Rapport qualité/prix exceptionnel avec plus de 19 000 avis clients positifs",
+      "Faisceau asymétrique 45° qui protège les yeux et valorise le bureau"
+    ],
+    "cons": [
+      "La télécommande ronde nécessite des piles AAA",
+      "Pince de maintien moins adaptée aux écrans ultra-épais de plus de 3,5 cm"
+    ],
+    "features": {
+      "Longueur de barre": "41 cm",
+      "Éclairage": "78 LEDs (jusqu à 900 Lux)",
+      "Contrôle": "Télécommande rotative sans fil 2.4 GHz",
+      "Modes": "Gradation auto intelligente et réglage manuel progressif",
+      "Alimentation": "USB Type-C"
+    },
+    "targetAudience": "Télétravailleurs cherchant une screenbar performante avec télécommande déportée sous la barre des 50 €.",
+    "description": "Avec près de 20 000 avis favorables, la Quntis 41 cm est le best-seller le plus populaire du marché. Sa télécommande sans fil rotative permet d ajuster chaleur et puissance d un simple geste sans lever le bras vers l écran.",
+    "verdict": "Le meilleur rapport fonctionnalités/prix avec télécommande déportée.",
+    "isFeatured": true,
+    "isTopThree": true,
+    "podiumRank": 2,
+    "award": "Meilleur Rapport Qualité/Prix",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "logitech-mx-master-3s-souris-sans-fil-ergonomique",
+    "slug": "logitech-mx-master-3s-souris-sans-fil-ergonomique",
+    "title": "Logitech MX Master 3S : Souris Ergonomique Sans Fil Haute Précision 8K",
+    "brand": "Logitech",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "souris-ergonomiques",
+    "subCategoryLabel": "Souris Ergonomiques",
+    "priceIndication": "75 € - 99 €",
+    "rating": 4.5,
+    "reviewCount": 1385,
+    "badge": "Choix d Amazon",
+    "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B02CPHhXc",
+    "pros": [
+      "Molette MagSpeed électromagnétique capable de faire défiler 1 000 lignes par seconde",
+      "Clics Quiet Clicks atténuant 90% du bruit tout en conservant une excellente sensation",
+      "Capteur optique 8K DPI Darkfield fonctionnant même sur les tables en verre",
+      "Autonomie colossale de 70 jours avec recharge rapide en USB-C"
+    ],
+    "cons": [
+      "Forme exclusivement conçue pour les utilisateurs droitiers",
+      "Gabarit plein format demandant une courte période d adaptation"
+    ],
+    "features": {
+      "Capteur": "Optique Darkfield 8 000 PPP (ajustable au pixel)",
+      "Molettes": "Molette principale MagSpeed + molette latérale de pouce",
+      "Connectivité": "Bluetooth Low Energy + récepteur USB Logi Bolt",
+      "Compatibilité": "Windows, macOS, iPadOS, Linux, ChromeOS",
+      "Autonomie": "Jusqu à 70 jours (3h d utilisation avec 1 min de charge)"
+    },
+    "targetAudience": "Professionnels, comptables, créatifs et codeurs manipulant de grands tableaux ou plusieurs fenêtres.",
+    "description": "La Logitech MX Master 3S est universellement reconnue comme la référence absolue de la souris de travail. Son profil sculpté soutient naturellement la paume et le pouce pour prévenir la fatigue musculaire lors des journées intensives.",
+    "verdict": "La reine incontestée de la productivité et du confort bureautique.",
+    "isFeatured": true,
+    "isTopThree": true,
+    "podiumRank": 3,
+    "award": "Top Productivité & Confort",
+    "updatedAt": "2026-11-24"
+  },
+  {
+    "id": "logitech-lift-souris-ergonomique-verticale-57",
+    "slug": "logitech-lift-souris-ergonomique-verticale-57",
+    "title": "Logitech Lift : Souris Ergonomique Verticale Sans Fil Anti-Tendinite 57°",
+    "brand": "Logitech",
+    "categorySlug": "accessoires-ergonomie",
+    "subCategory": "souris-ergonomiques",
+    "subCategoryLabel": "Souris Ergonomiques",
+    "priceIndication": "42 € - 59 €",
+    "rating": 4.4,
+    "reviewCount": 10595,
+    "badge": "Choix d Amazon",
+    "imageUrl": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=800&q=80",
+    "affiliateUrl": "https://link.amazon/B01mjfW6y",
+    "pros": [
+      "Angle vertical ergonomique optimal à 57° plaçant l avant-bras en position naturelle",
+      "Soulage instantanément les tensions au poignet et prévient le syndrome du canal carpien",
+      "Molette SmartWheel fluide avec passage automatique au défilement rapide",
+      "Clics ultra-silencieux et revêtement texturé agréable au toucher"
+    ],
+    "cons": [
+      "Nécessite 2 à 3 jours d adaptation pour maîtriser la gestuelle verticale",
+      "Format optimisé pour les mains petites à moyennes"
+    ],
+    "features": {
+      "Angle d inclinaison": "57 degrés (posture ergonomique certifiée)",
+      "Connectivité": "Bluetooth + USB Logi Bolt",
+      "Molette": "SmartWheel précision / vitesse",
+      "Alimentation": "1 pile AA incluse (autonomie jusqu à 24 mois)",
+      "Poids": "125 g"
+    },
+    "targetAudience": "Télétravailleurs souffrant de douleurs au poignet, d engourdissements des doigts ou de début de tendinite.",
+    "description": "La Logitech Lift redéfinit la posture devant l écran en plaçant votre main dans un angle naturel de 57°. Cette position de « poignée de main » détend immédiatement les muscles de l avant-bras et du haut du corps pour travailler des heures sans crispation.",
+    "verdict": "Le meilleur investissement médical préventif pour protéger ses poignets en télétravail.",
+    "isFeatured": true,
+    "isTopThree": false,
+    "award": "Prévention Canal Carpien & Santé",
     "updatedAt": "2026-11-24"
   }
 ]
