@@ -118,10 +118,18 @@ export default function HomePage() {
             {/* CTAs */}
             <div className="flex flex-wrap items-center justify-center gap-2.5 pt-1">
               <Link
-                href="/categorie/bureaux-assis-debout"
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm shadow-sm shadow-blue-500/25 transition-all hover:-translate-y-0.5 cursor-pointer"
+                href="/trouver-mon-setup"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-xs sm:text-sm shadow-md shadow-blue-500/25 transition-all hover:-translate-y-0.5 cursor-pointer"
               >
-                <Monitor className="w-4 h-4" />
+                <Sparkles className="w-4 h-4 text-amber-300" />
+                <span>Diagnostic IA : Trouver mon Set-Up Idéal</span>
+              </Link>
+
+              <Link
+                href="/categorie/bureaux-assis-debout"
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-bold text-xs sm:text-sm transition-all shadow-2xs"
+              >
+                <Monitor className="w-4 h-4 text-blue-600" />
                 <span>Explorer les Bureaux Assis-Debout</span>
               </Link>
 
@@ -130,7 +138,7 @@ export default function HomePage() {
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-bold text-xs sm:text-sm transition-all shadow-2xs"
               >
                 <BookOpen className="w-4 h-4 text-blue-600" />
-                <span>Tous nos guides &amp; comparatifs (9)</span>
+                <span>Guides &amp; Tests (9)</span>
               </Link>
             </div>
 

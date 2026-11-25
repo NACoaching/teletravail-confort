@@ -193,6 +193,7 @@ export default function Header() {
   ];
 
   const quickTrends = [
+    { label: "Diagnostic IA Set-Up", href: "/trouver-mon-setup", icon: Sparkles, badge: "Quiz IA" },
     { label: "Tapis de Marche", href: "/guides/tapis-de-marche-sous-bureau-assis-debout-avis-comparatif", icon: Footprints, badge: "Guide" },
     { label: "Claviers Ergo", href: "/guides/clavier-souris-ergonomiques-anti-tms-canal-carpien", icon: Keyboard, badge: "Guide" },
     { label: "Souris Verticales", href: "/guides/clavier-souris-ergonomiques-anti-tms-canal-carpien", icon: Mouse, badge: "Guide" },
@@ -325,6 +326,18 @@ export default function Header() {
               </div>
             );
           })}
+
+          <Link
+            href="/trouver-mon-setup"
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-all text-xs font-bold border shadow-xs ml-1 ${
+              pathname === "/trouver-mon-setup"
+                ? "bg-gradient-to-r from-blue-600 to-indigo-600 text-white border-blue-600"
+                : "bg-amber-50 text-amber-900 border-amber-300 hover:bg-amber-100"
+            }`}
+          >
+            <Sparkles className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
+            <span>Diagnostic IA</span>
+          </Link>
 
           <Link
             href="/guides"
@@ -552,15 +565,27 @@ export default function Header() {
 
           <div className="pt-2 border-t border-slate-100 space-y-2">
             <Link
-              href="/guides"
+              href="/trouver-mon-setup"
               onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-bold bg-blue-600 text-white shadow-sm"
+              className="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm"
             >
               <div className="flex items-center gap-2">
-                <BookOpen className="w-4 h-4" />
-                <span>Tous nos 9 Guides d'Achat & Tests</span>
+                <Sparkles className="w-4 h-4 text-amber-300" />
+                <span>Diagnostic IA : Trouver mon Set-Up Ergonomique</span>
               </div>
               <ChevronRight className="w-4 h-4" />
+            </Link>
+
+            <Link
+              href="/guides"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-800 transition"
+            >
+              <div className="flex items-center gap-2">
+                <BookOpen className="w-4 h-4 text-blue-600" />
+                <span>Tous nos 9 Guides d'Achat & Tests</span>
+              </div>
+              <ChevronRight className="w-4 h-4 text-slate-400" />
             </Link>
           </div>
         </div>
