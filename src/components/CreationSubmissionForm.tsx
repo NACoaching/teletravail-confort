@@ -114,7 +114,7 @@ export default function CreationSubmissionForm({
       `--- PIÈCE JOINTE ---`,
       `Pensez à bien joindre la photo de votre création à cet email !`,
       ``,
-      `Envoyé depuis la page "Vos Créations" de Coin-Créatif.com`,
+      `Envoyé depuis le site ${SITE_CONFIG.name} (${SITE_CONFIG.domain.replace("https://", "")})`,
     ];
     return lines.join("\n");
   };

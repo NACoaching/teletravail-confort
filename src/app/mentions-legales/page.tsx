@@ -47,10 +47,10 @@ export default function MentionsLegalesPage() {
         <section className="pt-4 border-t border-[#efe4da]">
           <h2 className="titre text-lg font-bold text-[#3d2f2a] mb-2">3. Programme d&apos;Affiliation Amazon & Transparence</h2>
           <p>
-            Coin-Créatif.com participe au <strong>Programme Partenaires d&apos;Amazon EU</strong>, un programme d&apos;affiliation conçu pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr.
+            <strong>{SITE_CONFIG.name}</strong> ({SITE_CONFIG.domain.replace("https://", "")}) participe au <strong>Programme Partenaires d&apos;Amazon EU</strong>, un programme d&apos;affiliation conçu pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr.
           </p>
           <p className="mt-2">
-            En tant que Partenaire Amazon, Coin-Créatif.com réalise un bénéfice sur les achats remplissant les conditions requises. Cela n&apos;entraîne aucun coût supplémentaire pour le visiteur. Amazon et le logo Amazon sont des marques commerciales d&apos;Amazon.com, Inc. ou de ses affiliés.
+            En tant que Partenaire Amazon, <strong>{SITE_CONFIG.name}</strong> réalise un bénéfice sur les achats remplissant les conditions requises. Cela n&apos;entraîne aucun coût supplémentaire pour le visiteur. Amazon et le logo Amazon sont des marques commerciales d&apos;Amazon.com, Inc. ou de ses affiliés.
           </p>
           <p className="mt-2">
             Les recommandations sont basées sur l&apos;analyse des caractéristiques techniques, les fiches constructeurs et les avis d&apos;utilisateurs. Aucun fabricant ne rémunère le site pour figurer dans nos comparatifs.
@@ -60,7 +60,7 @@ export default function MentionsLegalesPage() {
         <section className="pt-4 border-t border-[#efe4da]">
           <h2 className="titre text-lg font-bold text-[#3d2f2a] mb-2">4. Propriété intellectuelle</h2>
           <p>
-            Les textes, guides, synthèses et analyses publiés sur Coin-Créatif.com sont protégés par le droit d&apos;auteur. Toute reproduction totale ou partielle sans autorisation préalable est interdite.
+            Les textes, guides, synthèses et analyses publiés sur <strong>{SITE_CONFIG.name}</strong> ({SITE_CONFIG.domain.replace("https://", "")}) sont protégés par le droit d&apos;auteur. Toute reproduction totale ou partielle sans autorisation préalable est interdite.
           </p>
         </section>
       </div>

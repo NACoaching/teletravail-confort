@@ -32,7 +32,7 @@ export default function ContactForm({
     parts.push(`Date : ${new Date().toLocaleDateString("fr-FR")}`);
     parts.push("\n--- Message ---");
     parts.push(message.trim() || "(Message vide)");
-    parts.push("\n---\nEnvoyé depuis le formulaire Coin-Créatif.com");
+    parts.push(`\n---\nEnvoyé depuis le formulaire de contact ${SITE_CONFIG.name} (${SITE_CONFIG.domain.replace("https://", "")})`);
     return parts.join("\n");
   };
 
