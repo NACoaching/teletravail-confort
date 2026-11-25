@@ -92,34 +92,34 @@ export default function HomePage() {
   return (
     <div className="relative overflow-hidden min-h-screen text-slate-900 craft-dot-pattern">
       <CraftDoodles />
-      {/* Hero Section: Design Sobre, Épuré & Centré */}
-      <section className="pt-6 pb-10 px-4 sm:px-6 relative">
-        <div className="mx-auto max-w-5xl rounded-3xl sm:rounded-[2.5rem] bg-gradient-to-b from-white via-slate-50 to-blue-50/30 border border-slate-200/90 p-8 sm:p-12 lg:p-16 shadow-[0_20px_50px_-15px_rgba(15,23,42,0.05)] relative overflow-hidden text-center">
+      {/* Hero Section: Design Sobre, Épuré & Plus Compact */}
+      <section className="pt-3 pb-6 px-4 sm:px-6 relative">
+        <div className="mx-auto max-w-5xl rounded-2xl sm:rounded-3xl bg-gradient-to-b from-white via-slate-50 to-blue-50/30 border border-slate-200/90 py-6 px-5 sm:py-8 sm:px-10 shadow-[0_12px_36px_-12px_rgba(15,23,42,0.06)] relative overflow-hidden text-center">
           {/* Subtle radial glow */}
-          <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="max-w-3xl mx-auto space-y-6 relative z-10">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold tracking-wide">
+          <div className="max-w-3xl mx-auto space-y-4 relative z-10">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold tracking-wide">
               <Zap className="w-3.5 h-3.5 text-blue-600" />
               <span>Le Guide du Set-Up Ergonomique &amp; Home Office 2026</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-[2.85rem] font-black text-slate-900 tracking-tight leading-[1.18]">
+            <h1 className="text-2xl sm:text-3xl lg:text-[2.2rem] font-black text-slate-900 tracking-tight leading-snug">
               Travaillez sans douleur, libérez votre espace et{" "}
               <span className="text-blue-600">
                 adoptez la bonne posture.
               </span>
             </h1>
 
-            <p className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
+            <p className="text-slate-600 text-xs sm:text-sm sm:leading-relaxed max-w-2xl mx-auto">
               Bureaux assis-debout silencieux, chaises en maille respirante, tapis de marche, bras d&apos;écrans et périphériques ergonomiques : nos sélections testées et comparatifs indépendants pour aménager un poste de travail sain et productif.
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
+            <div className="flex flex-wrap items-center justify-center gap-2.5 pt-1">
               <Link
                 href="/categorie/bureaux-assis-debout"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-md shadow-blue-500/25 transition-all hover:-translate-y-0.5 cursor-pointer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm shadow-sm shadow-blue-500/25 transition-all hover:-translate-y-0.5 cursor-pointer"
               >
                 <Monitor className="w-4 h-4" />
                 <span>Explorer les Bureaux Assis-Debout</span>
@@ -127,7 +127,7 @@ export default function HomePage() {
 
               <Link
                 href="/guides"
-                className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-bold text-sm transition-all shadow-xs"
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-bold text-xs sm:text-sm transition-all shadow-2xs"
               >
                 <BookOpen className="w-4 h-4 text-blue-600" />
                 <span>Tous nos guides &amp; comparatifs (9)</span>
@@ -135,17 +135,17 @@ export default function HomePage() {
             </div>
 
             {/* Badges Trust */}
-            <div className="flex flex-wrap items-center justify-center gap-6 pt-6 text-xs text-slate-500 border-t border-slate-200/80 max-w-xl mx-auto">
+            <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 pt-4 text-[11px] sm:text-xs text-slate-500 border-t border-slate-200/80 max-w-xl mx-auto">
               <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
                 Tests de stabilité et niveau sonore
               </span>
               <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
                 Spécial petits espaces &amp; appartements
               </span>
               <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
                 100% sélections indépendantes 2026
               </span>
             </div>
