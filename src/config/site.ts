@@ -10,8 +10,10 @@ export const SITE_CONFIG = {
   shortDescription:
     "Guides d'achat complets, comparatifs clairs et sélections d'équipements pour aménager votre espace de télétravail : bureaux assis-debout, chaises ergonomiques, bras d'écrans, éclairages screenbars et accessoires de posture.",
 
-  // Identité éditoriale (E-E-A-T)
-  author: "L'Équipe Télétravail Confort",
+  // Identité éditoriale & E-E-A-T
+  author: "Alexandre Moreau",
+  authorRole: "Consultant Ergonomie & Aménagement Home-Office",
+  authorBio: "Télétravailleur depuis 2018 et passionné de biomécanique posturale, Alexandre teste et analyse les équipements de bureau pour éliminer les douleurs de dos et optimiser la concentration au quotidien.",
   publisher: "Télétravail Confort Média",
   foundingYear: 2026,
 

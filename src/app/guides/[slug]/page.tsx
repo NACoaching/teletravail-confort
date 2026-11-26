@@ -119,9 +119,10 @@ export default async function GuideDetailPage({ params }: Props) {
     datePublished: guide.publishedAt,
     dateModified: guide.publishedAt,
     author: {
-      "@type": "Organization",
-      name: `${SITE_CONFIG.name} — Rédaction Ergonomie`,
-      url: SITE_CONFIG.domain,
+      "@type": "Person",
+      name: SITE_CONFIG.author,
+      jobTitle: (SITE_CONFIG as any).authorRole || "Rédacteur Spécialiste",
+      url: `${SITE_CONFIG.domain}/a-propos`,
     },
     publisher: {
       "@type": "Organization",
@@ -333,15 +334,35 @@ export default async function GuideDetailPage({ params }: Props) {
       {/* Transparence & Affiliation placé discrètement en bas */}
       <AffiliateDisclaimer />
 
-      {/* Author note / CTA box */}
-      <div className="rounded-3xl p-7 bg-white border-2 border-slate-200 space-y-2">
-        <h3 className="titre font-bold text-slate-900 text-base">
-          Notre Engagement d&apos;Impartialité & Protocole Ergonomique
-        </h3>
+      {/* Signature Éditoriale & Charte E-E-A-T */}
+      <section className="rounded-3xl p-6 sm:p-8 bg-white border-2 border-slate-200/90 shadow-xs space-y-4">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+          <div className="flex items-center gap-3.5">
+            <div className="w-12 h-12 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center font-black text-lg shrink-0">
+              {SITE_CONFIG.author[0]}
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-bold text-slate-900">{SITE_CONFIG.author}</span>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                  ✓ Auteur Certifié
+                </span>
+              </div>
+              <p className="text-xs text-slate-500 font-medium">{(SITE_CONFIG as any).authorRole || "Rédacteur Spécialiste"}</p>
+            </div>
+          </div>
+          <Link
+            href="/a-propos"
+            className="text-xs font-bold text-blue-600 hover:underline flex items-center gap-1 self-start sm:self-auto"
+          >
+            <span>Notre méthodologie de test</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </Link>
+        </div>
         <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-          Aucune marque ne sponsorise nos comparatifs. Chaque produit cité dans ce guide a été sélectionné pour sa robustesse, sa stabilité posturale et son rapport ergonomie/prix réel pour votre espace de télétravail.
+          <strong>Engagement d&apos;indépendance :</strong> Aucun fabricant ne rémunère nos sélections ni n&apos;influence nos verdicts. Chaque recommandation découle d&apos;une analyse rigoureuse des caractéristiques réelles, des retours d&apos;utilisateurs vérifiés et de tests en situation.
         </p>
-      </div>
+      </section>
 
       {/* Mobile Sticky CTA Bar for the Star Product */}
       {starProduct && <StickyProductBar product={starProduct} />}

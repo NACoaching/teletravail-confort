@@ -121,6 +121,26 @@ export default function AProposPage() {
         </div>
       </section>
 
+            {/* Équipe Éditoriale & Auteur Référent */}
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 pb-12">
+        <div className="bg-white rounded-3xl border border-slate-200/90 p-6 sm:p-8 shadow-xs space-y-6">
+          <div className="flex items-center gap-2 text-xs font-bold text-blue-600 uppercase tracking-wider">
+            <Award className="w-4 h-4" />
+            <span>Expertise &amp; Responsabilité Éditoriale</span>
+          </div>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
+            <div className="w-16 h-16 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center text-2xl font-black shrink-0">
+              {SITE_CONFIG.author[0]}
+            </div>
+            <div className="space-y-1">
+              <h3 className="text-xl font-bold text-slate-900">{SITE_CONFIG.author}</h3>
+              <p className="text-xs font-semibold text-blue-700">{(SITE_CONFIG as any).authorRole}</p>
+              <p className="text-sm text-slate-600 leading-relaxed pt-1">{(SITE_CONFIG as any).authorBio}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Transparency & Amazon Affiliate */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="bg-slate-900 rounded-3xl p-6 sm:p-8 text-white space-y-4">

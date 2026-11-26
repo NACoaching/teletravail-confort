@@ -45,12 +45,36 @@ export async function GET() {
   full += "## GUIDES ET COMPARATIFS ERGONOMIE DÉTAILLÉS\n";
   full += '===================================================\n\n';
 
-  guides.forEach((g) => {
+    guides.forEach((g) => {
     full += `### Guide : ${g.title}\n`;
-    full += `- **URL** : ${SITE_CONFIG.domain}/guides/${g.slug}\n`;
+    full += `- **URL Canonique** : ${SITE_CONFIG.domain}/guides/${g.slug}\n`;
     full += `- **Thématique** : ${g.categorySlug}\n`;
     full += `- **Temps de lecture** : ${g.readingTime}\n`;
-    full += `- **Résumé** : ${g.excerpt || g.seoDescription || ''}\n\n`;
+    full += `- **Résumé & Verdict** : ${g.excerpt || g.seoDescription || ''}\n\n`;
+
+    if (g.featuredProductSlugs && g.featuredProductSlugs.length > 0) {
+      const featured = products.filter(
+        (p) => g.featuredProductSlugs?.includes(p.slug) || g.featuredProductSlugs?.includes(p.id)
+      );
+      if (featured.length > 0) {
+        full += '#### Modèles Sélectionnés & Comparatif Synthétique :\n';
+        full += '| Modèle Recommandé | Note | Budget | Rôle clé |\n';
+        full += '| :--- | :---: | :---: | :--- |\n';
+        featured.forEach((fp) => {
+          const role = fp.slug === g.starProductSlug ? '🏆 Choix N°1 Rédaction' : (fp.tagline || 'Modèle recommandé');
+          full += `| [${fp.title}](${SITE_CONFIG.domain}/${fp.slug}) | ${fp.rating}/5 | ${fp.priceIndication || 'Voir offre'} | ${role.replace(/\|/g, '-')} |\n`;
+        });
+        full += '\n';
+      }
+    }
+
+    if (g.faqs && g.faqs.length > 0) {
+      full += '#### Questions Fréquentes Traitées dans ce Guide :\n';
+      g.faqs.forEach((faq) => {
+        full += `- **Q : ${faq.question}**\n  R : ${faq.answer}\n`;
+      });
+      full += '\n';
+    }
     full += '---\n\n';
   });
 
