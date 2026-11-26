@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Star, ExternalLink, Table2, ArrowRight } from "lucide-react";
+import { Star, ExternalLink, Table2 } from "lucide-react";
 import { Product } from "@/lib/types";
 
 interface GuideComparisonTableProps {
@@ -51,12 +51,108 @@ export default function GuideComparisonTable({ products, guideTitle }: GuideComp
             Tableau Comparatif : Coup d'Œil Rapide
           </h2>
         </div>
-        <span className="text-[11px] font-semibold text-[#8c786c] bg-[#f5ede3] px-2.5 py-1 rounded-full self-start sm:self-auto sm:hidden">
-          ← Faire défiler pour comparer →
+        <span className="text-[11px] font-semibold text-[#8c786c] bg-[#f5ede3] px-2.5 py-1 rounded-full self-start sm:self-auto md:hidden">
+          {tableProducts.length} produits comparés
         </span>
       </div>
 
-      <div className="overflow-x-auto rounded-2xl border-2 border-[#eadfd3] bg-white shadow-sm">
+      {/* Vue Mobile (< md) : Fiches comparatives claires et ergonomiques */}
+      <div className="md:hidden space-y-3">
+        {tableProducts.map((p, idx) => {
+          const badge = getRankBadge(idx);
+          const amazonUrl = p.affiliateUrl || `https://www.amazon.fr/dp/${p.amazonAsin || ""}?tag=teletravailconfort-21`;
+
+          return (
+            <div
+              key={p.id || p.slug}
+              className={`rounded-2xl border-2 p-3.5 space-y-3 transition ${
+                idx === 0
+                  ? "bg-[#fffbf7] border-[#fad8ca] shadow-xs"
+                  : "bg-white border-[#eadfd3]"
+              }`}
+            >
+              {/* Ligne 1 : Badge & Note */}
+              <div className="flex items-center justify-between gap-2">
+                <span
+                  className={`inline-block px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${badge.bg}`}
+                >
+                  {badge.label}
+                </span>
+                <div className="inline-flex items-center gap-1 font-bold text-xs text-[#241b16]">
+                  <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+                  <span>{p.rating || 4.7}</span>
+                  <span className="text-[10px] text-[#8c786c]">/5</span>
+                  {p.reviewCount && (
+                    <span className="text-[10px] text-[#8c786c]">
+                      ({p.reviewCount})
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              {/* Ligne 2 : Vignette + Titre + Marque + Prix visible */}
+              <div className="flex items-start gap-3">
+                <div className="relative w-16 h-16 rounded-xl overflow-hidden bg-white border border-[#eadfd3] shrink-0 p-1 flex items-center justify-center">
+                  <Image
+                    src={p.imageUrl}
+                    alt={p.title}
+                    width={64}
+                    height={64}
+                    className="object-contain max-h-full max-w-full"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="min-w-0 flex-1 space-y-1">
+                  <Link
+                    href={`/${p.slug}`}
+                    className="block font-bold text-xs text-[#241b16] hover:text-[#e05238] line-clamp-2 leading-tight"
+                    title={p.title}
+                  >
+                    {p.title}
+                  </Link>
+                  <div className="flex items-center justify-between gap-2 pt-0.5">
+                    {p.brand ? (
+                      <span className="text-[11px] text-[#8c786c] font-medium truncate">
+                        Par {p.brand}
+                      </span>
+                    ) : <span />}
+                    <span className="shrink-0 px-2.5 py-0.5 rounded-md bg-[#fdf2e9] text-[#b34024] font-bold text-xs border border-[#fad8ca]">
+                      {p.priceIndication || p.priceRange || "Voir offre"}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Ligne 3 : Idéal pour... */}
+              <div className="bg-[#fcf7f0] rounded-xl p-2.5 text-xs text-[#5c4a3e] border border-[#f0e7dd] leading-snug">
+                <span className="font-bold text-[#241b16]">Idéal pour : </span>
+                <span>
+                  {p.targetAudience || p.tagline || "Idéal pour optimiser votre espace de travail"}
+                </span>
+              </div>
+
+              {/* Ligne 4 : Bouton CTA plein écran sur mobile */}
+              <a
+                href={amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                data-affiliate-link="true"
+                data-product-name={p.title}
+                data-site="teletravail-confort.com"
+                data-asin={p.amazonAsin || ""}
+                data-position-zone="Tableau Comparatif Guide"
+                className="flex items-center justify-center gap-1.5 w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs shadow-xs active:scale-95 transition"
+              >
+                <span>Voir le prix sur Amazon</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Vue Desktop (>= md) : Tableau classique complet intact */}
+      <div className="hidden md:block overflow-x-auto rounded-2xl border-2 border-[#eadfd3] bg-white shadow-sm">
         <table className="w-full text-left border-collapse min-w-[680px]">
           <thead>
             <tr className="bg-[#fcf7f0] border-b-2 border-[#eadfd3] text-[12px] font-bold uppercase tracking-wider text-[#7a6a5d]">
@@ -117,7 +213,7 @@ export default function GuideComparisonTable({ products, guideTitle }: GuideComp
                   {/* Idéal pour */}
                   <td className="py-3.5 px-4 text-[#5c4a3e] leading-snug">
                     <span className="font-medium">
-                      {p.targetAudience || p.tagline || "Créatifs débutants à confirmés"}
+                      {p.targetAudience || p.tagline || "Idéal pour optimiser votre espace de travail"}
                     </span>
                   </td>
 
