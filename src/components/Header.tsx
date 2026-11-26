@@ -193,7 +193,11 @@ export default function Header() {
   ];
 
   const quickTrends = [
-    { label: "Diagnostic IA Set-Up", href: "/trouver-mon-setup", icon: Sparkles, badge: "Quiz IA" },
+    { label: "Diagnostic IA", href: "/trouver-mon-setup", icon: Sparkles, badge: "Quiz IA" },
+    { label: "Bureaux Assis-Debout", href: "/categorie/bureaux-assis-debout", icon: Monitor, badge: "Rayon" },
+    { label: "Fauteuils Ergonomiques", href: "/categorie/fauteuils-ergonomiques", icon: Armchair, badge: "Rayon" },
+    { label: "Supports Écrans", href: "/categorie/supports-bras-ecrans", icon: Layers, badge: "Rayon" },
+    { label: "Accessoires & Confort", href: "/categorie/accessoires-ergonomie", icon: Sparkles, badge: "Rayon" },
     { label: "Tapis de Marche", href: "/guides/tapis-de-marche-sous-bureau-assis-debout-avis-comparatif", icon: Footprints, badge: "Guide" },
     { label: "Claviers Ergo", href: "/guides/clavier-souris-ergonomiques-anti-tms-canal-carpien", icon: Keyboard, badge: "Guide" },
     { label: "Souris Verticales", href: "/guides/clavier-souris-ergonomiques-anti-tms-canal-carpien", icon: Mouse, badge: "Guide" },
@@ -202,7 +206,6 @@ export default function Header() {
     { label: "Webcams & Visio", href: "/guides/materiel-visioconference-teletravail-webcam-casque-micro-anti-bruit", icon: Video, badge: "Guide" },
     { label: "Casques Anti-Bruit", href: "/guides/materiel-visioconference-teletravail-webcam-casque-micro-anti-bruit", icon: Headphones, badge: "Guide" },
     { label: "Sièges Assis-Genoux", href: "/guides/soulager-mal-de-dos-teletravail-sans-changer-chaise-coussins-repose-pieds", icon: Armchair, badge: "Guide" },
-    { label: "Bureaux Motorisés", href: "/guides/meilleur-bureau-assis-debout-electrique-comparatif-avis", icon: Monitor, badge: "Guide" },
   ];
 
   return (
@@ -491,15 +494,15 @@ export default function Header() {
 
             {/* Right Scroll Arrow & Bouton Explicite "Suite ➔" */}
             {canScrollRight && (
-              <div className="absolute right-0 top-0 bottom-0 z-20 flex items-center gap-1 bg-gradient-to-l from-slate-50 via-slate-50/95 to-transparent pl-5 pr-0.5">
+              <div className="absolute right-0 top-0 bottom-0 z-20 flex items-center gap-1 bg-gradient-to-l from-slate-50 via-slate-50/95 to-transparent pl-5 pr-1">
                 <button
                   type="button"
                   onClick={() => scrollTrends("right")}
-                  className="flex items-center gap-1 px-2 py-0.5 rounded-full bg-white border border-slate-300 shadow-sm text-slate-700 hover:text-blue-600 hover:border-blue-400 text-[10px] font-bold cursor-pointer transition active:scale-95"
-                  aria-label="Défiler vers la droite pour voir la suite des guides"
+                  className="w-6 h-6 sm:w-auto sm:px-2 py-0.5 rounded-full bg-white border border-slate-300 shadow-sm text-slate-700 hover:text-blue-600 hover:border-blue-400 text-[10px] font-bold cursor-pointer transition active:scale-95 flex items-center justify-center gap-1 animate-pulse"
+                  aria-label="Défiler vers la droite pour voir la suite des catégories"
                 >
-                  <span>Suite</span>
-                  <ChevronRight className="w-3 h-3" />
+                  <span className="hidden sm:inline">Suite</span>
+                  <ChevronRight className="w-3.5 h-3.5" />
                 </button>
               </div>
             )}
