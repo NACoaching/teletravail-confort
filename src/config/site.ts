@@ -12,7 +12,7 @@ export const SITE_CONFIG = {
 
   // Identité éditoriale & E-E-A-T
   author: "L'Équipe Télétravail Confort",
-  authorRole: "Pôle Éditorial & Tests Matériel — Dirigé par Nolwen Albanesi",
+  authorRole: "Pôle Éditorial & Tests Matériel Indépendants",
   authorBio: "Collectif de passionnés d'ergonomie et de télétravailleurs réunis pour tester en conditions réelles le mobilier de bureau, les assises et les accessoires de posture sans compromis commercial.",
   publisher: "Télétravail Confort Média",
   foundingYear: 2026,
