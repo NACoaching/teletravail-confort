@@ -119,7 +119,7 @@ export default async function GuideDetailPage({ params }: Props) {
     datePublished: guide.publishedAt,
     dateModified: guide.publishedAt,
     author: {
-      "@type": "Person",
+      "@type": "Organization",
       name: SITE_CONFIG.author,
       jobTitle: (SITE_CONFIG as any).authorRole || "Rédacteur Spécialiste",
       url: `${SITE_CONFIG.domain}/a-propos`,
@@ -339,13 +339,13 @@ export default async function GuideDetailPage({ params }: Props) {
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
           <div className="flex items-center gap-3.5">
             <div className="w-12 h-12 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center font-black text-lg shrink-0">
-              {SITE_CONFIG.author[0]}
+              👥
             </div>
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-sm font-bold text-slate-900">{SITE_CONFIG.author}</span>
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
-                  ✓ Auteur Certifié
+                  ✓ Rédaction Certifiée
                 </span>
               </div>
               <p className="text-xs text-slate-500 font-medium">{(SITE_CONFIG as any).authorRole || "Rédacteur Spécialiste"}</p>

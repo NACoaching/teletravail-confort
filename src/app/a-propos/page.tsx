@@ -130,7 +130,7 @@ export default function AProposPage() {
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
             <div className="w-16 h-16 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center text-2xl font-black shrink-0">
-              {SITE_CONFIG.author[0]}
+              👥
             </div>
             <div className="space-y-1">
               <h3 className="text-xl font-bold text-slate-900">{SITE_CONFIG.author}</h3>
